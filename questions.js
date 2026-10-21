@@ -1,7 +1,7 @@
-/* Unit 2: Practice Test, Version 4. */
+/* Unit 2: Practice Test, Version 5. */
 window.QUIZ = {
   title: "Unit 2: Practice Test",
-  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypTmgKNNT0lg==",
+  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypTmgKNNX3lg==",
   questions: [
  {
   "q": "In the 1850s, the population of Canada West grew larger than that of Canada East. Why did this lead to political deadlock in the Assembly?",
@@ -389,28 +389,6 @@ window.QUIZ = {
   "x": "1MjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLuF2dlh2Y0F2azF2UgY2bgwWY0lGchNGIlhGdgUWbhNWZiBSYul2ZlJFIi4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
  },
  {
-  "q": "In 1869, Canada bought Rupert's Land. Who did Canada buy it from?",
-  "o": [
-   "The British Parliament in London",
-   "The Hudson's Bay Company",
-   "The North West Company",
-   "The government of the United States"
-  ],
-  "h": "Look back at the 1860 map in Chapter 7. Who controlled Rupert's Land?",
-  "x": "=kDNxAiLwBCL3AiLoNEI7IzMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBibhdXZoNGdht2chN1LhRnclJGbBBic19WegUWZTBiIuQXagQWZsx2byRnbvNGI55WYw12bDBSehJEIzdibvNHZ1hEIlhGVg4Seu9GbvNGIhBCdv5GIzF2diACZuFGTgM3J0JXZwVnUgQXYoRHIzVGdv5GIvNHbhByNgIXZ0BXYoNEKg4ibhdXZoNGdht2chNFIk5WYgEGdyVmYsFEIl1WYjVmYgIXZ0FGbgQXYoRHIk5WYsBSZoRHIsMXZpJ3b0lmcyVGVgQ3cldVLoRncv5EIlhGdgUWbhNWZiBCdpBiZvBCajVXTgIiL5YDOxAibpBSeuFGct92QgkXYCBycn42bzRWdIBSZoRHIt9mcmBCZuFGTgM3J0JXZwVnUgQWZzFGajJXdwBSYkFmbhNkI"
- },
- {
-  "q": "When Saskatchewan became a province in 1905, why did Regina seem the obvious choice for its capital?",
-  "o": [
-   "It was already the capital of the North-West Territories.",
-   "Its voters had supported Laurier's Liberals in the 1904 election.",
-   "It was the only prairie city on a railway line.",
-   "Queen Victoria had chosen it as the capital."
-  ],
-  "h": "Think about what Regina already was before Saskatchewan existed.",
-  "x": "=UzMyACLyMjMg4CcwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBibhdXZoNGdht2chN1LhRnclJGbBBic19WegUWZThCIukHdpNGIsFGdpBXYjBSZoRHIh5WanVmUgUGZh1GIkFGagQ3YBBycllmcvRXayJXZUBCdzV2VtgGdy9mTgUGaUBiIuMXZpJ3b0lmcyVGVgQ3cldVLoRncv5EIlhGdgY2bgwWY0lGchNGIlhGdg4WZlJGI5RWYlJHbhBCZhhGI0lEIuU2Yp9GajByc19Wa2J2bgUGa0BCZl1WZlNHIh5WanVmUgwibhdXZoNGdht2chNFIulkI"
- },
- {
   "q": "What was Prince Edward Island's \"Land Question\"?",
   "o": [
    "Most of the island's soil was too poor for farming.",
@@ -422,26 +400,48 @@ window.QUIZ = {
   "x": "=cjMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBSSFBFIyV3b5BibvBybzxWQoAiLkVmbp9magkURQBiZpBCZuFGbgUGa0BSe1JGIvRHIkV2cp12byBHIhRWYuF2QgIiLzJXZud3bk5WYsBSZoRHIvRHI05WZyBCZpFGcgMnclRmbhx2cJBCdz9WbgwyctJXYmBCZuFGIzVWbvhGIud3bgIXalhGdgcmbp52dvBiZvBCZhVGdz5WagwCdhhGdgQnbhVWbgMXaoRFIuQmbhx2cpBSZoRHIm9GI0N3btBCZl52dvBycyVmb39GZuFGbgg2cpRXayJEIlVGduV2ciFkI"
  },
  {
-  "q": "After Alberta and Saskatchewan became provinces in 1905, who controlled their public lands and natural resources?",
+  "q": "Why were some colonies and provinces worried about joining Confederation?",
   "o": [
-   "The two new provinces",
-   "The Hudson's Bay Company",
-   "The federal government",
-   "The British government"
+   "They feared losing local power to the federal government and facing higher taxes or tariffs",
+   "They wanted to become part of the United States immediately",
+   "They believed Confederation would end all trade with Britain",
+   "They thought it would give them more independence than they already had"
   ],
-  "h": "Haultain and Laurier disagreed about this, and Laurier got his way.",
-  "x": "=MzMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4ukCMzkTMgMXehNHIlRWasNHIyV3b5hCIzJXYllHI1IDIyVGa09mbhBicvZGIzRmbhxGIylWZoRHIvRHIlxGdpRHI0V2ZgQ3buBCZpRGIzV2YulmdvJHcgUGaUBiIuMXZjJXdvNXZyBCZuFGIzRmbhxGIjlGbiVHcgY2bgw2byRnbvNGIwVWZrBCZpRGI05WZt5mclZ3bnBCbhJXZkVmZgUGaUJCIuMHduFmcnlWbtlGI3Vmbg8GdgQmbhxGIwFWZoNGIlZXanByb0BCbvJHdu92YgQWZkVWZuBicllmc1FGTgQXdiBCLzV2YyV3bzVmcgQmbhBCZuFGbgUGa0BCbvJHdu92Yg8GdgMXZj5Wa29mcwBSZoRHIkVGduF2dg4WahRHb1FGS"
+  "h": "Think about how a small colony might feel inside a much bigger country.",
+  "x": "=AjNxAiLwBCL3AiLoNEIr92biRHelRlnQKuIuQnbl1mbyVmdvdGI05WY0NXakBSYgg2Y1NHIulGIlNmblVHbm5Wagg2Y11mIgUmdhhGI09mbgQGb192dgQXagQHblZGIk5WYsRmb19mZ3VmTgQmbhBiIsMXZp52bs92YgIXZoR3bgUGa0BSeiBCZlBXbhd3cgUmYgQGb192diACdpBCZlJXYlZGIJVEUgIiLlJXZodXZzxWZgQnblB3cgUmYgQGb192dgkXZu9WbgUGa0BCdhhGdgQXdiBCLzVGehRHIyVGanlGagkXYwByb0BSZ2FGagQGb192diAycuFWa092YTBSY29mTgQXYoRHIkVWdnJXYgU2dvhEIoBXZz9mSgIiLu9WauVHIlhGdgUGdh5Wat9GZgQGb192dgMXZp52bs92Yg4WYpRWYuF2QgIXZnJXYsBSZoRHI0FGa0BCZllmcy92diAyajl2dz5WdyJEI3VmT"
  },
  {
-  "q": "In 1934, why did Britain replace Newfoundland's elected government with a commission?",
+  "q": "Which province's entry into Confederation was strongly influenced by the threat of American expansionism (especially after the U.S. purchased Alaska in 1867)?",
   "o": [
-   "Newfoundlanders voted to end self-government.",
-   "The colony was about to go bankrupt.",
-   "The Second World War had just begun.",
-   "Canada asked Britain to run the colony."
+   "Manitoba",
+   "Prince Edward Island",
+   "British Columbia",
+   "Newfoundland"
   ],
-  "h": "Think about what the Great Depression did to Newfoundland's exports and its government's money.",
-  "x": "=gzMyMJgifzMyAiLwBHIsATMg4CaDByav9mY0hXZU5Jki7SOzkTMgwWa05Wdg4WanVmYgQ3buBCZpRGIyF2VgQGby92VgQmbvNWZTBSZoRFIi4ibvl2czlWbt92YgEGIoRXa3BCdpBCZlNWYsBXZyBCdpBCL0MTOxAibpJCIvNFIi4CdwVncr5WYiBybnByb0BCd19mYhBychdHI552bs92YgUGaUBiLkV2dvJncvJGIkFGagQXagkXZu9Wbg42bgQ3clJXZ05WagUGa0BSehBHIvRHIkJ3bmZWYgQ3buBCZsV3bjJCI05WZt5mclZ3bnBSZoRFIuMnYvpGIylWZoRHI0N3bsByck5WYzV3boRHIk5WYgQWZzBXYsx2bjBycsFmcl5WatBCZuFGIsQ2bvdHIsg2cpZGIy9mZgMXZjlmcwBCLu9WazNXZyBXZEBCdhVmcHBSZoRHIn5WayVHR"
+  "h": "Find Alaska on a map. Which colony was right next door?",
+  "x": "==wMyIDIuAHIsATMg4CaDByav9mY0hXZU5Jki7SM3gTMg4WagEGZh5WYDBCZl5WavpGI0lEIi4yclRXY0NFIkVGdp5WVgUGa0Bibp9mag8GdiAychdHIzV2Yp9GajBSZlJHa0BycnEWai1Wds92Qgg2cpRXayJEIm9GIl52TgIiLzJXZkFWZ0NXZt9GaggGdpdHIwVHIn5WasxWamBSest2YpVXcgMXY3BibvR3ZulGazF2VgY2bgUGdhR3cgUGa0BCLoRXdvNHIlhGdg8GVg4yN2gTMg4WagEWazNXdSBSbvJnZgE2azFGbBBCdodWdvJGIkFGagMXZ0FGdTBCZlRXauVFIlhGdgwCa0J3buBSZoRHIvRlI"
+ },
+ {
+  "q": "Why did Newfoundland wait until 1949 to join Canada?",
+  "o": [
+   "It was still fighting a war with the United States",
+   "It had a bad economy in the 1930s and people voted in 1948 to join for better jobs and help from Canada",
+   "Britain said it could never join Canada",
+   "Most people wanted to become part of the United States"
+  ],
+  "h": "Think about what happened to Newfoundland's economy during the Great Depression.",
+  "x": "=kzMyMJgifzMyAiLwBHIsATMg4CaDByav9mY0hXZU5Jki7SO0kTMgg2YyFWTgEzMg42bgU2YulmdvJHcggGduVGdgM3JhRWYuF2QgUWbhNWZiBCZuFGbk5WdvZ2dl5EIk5WYgwibp9mag8GdgQWZ09mdgQnblNGIyVGcgMjLyUDIsgDN5EDIulGItVHZuVmclZWZyBCZu92YlNHIlhGdg4WSgIiL512bu92YlBSZsJWY0NHIhBCZuFGIzV2YpZnclNHIsFWaj92cgUmcv1mIg8GdgQWZ05WavBHIu9Wa0FmclRWZm52bDBiZvBycyVGdy9GcwV3cgwichdHIlhGdgIXZ0ZWQg4CNzkTMg4WagU2ZyFGajBibpBibvl2czlWbt92YgEGI0VHcg4WahRXayJEIvNHIiwCdwVncr5WYiBybnByb0BCd19mYhBychdnIgknbvx2bjBSZoRHIk5WYgIyci9magIXalhGdgQ3cvxGIzJXZk5WYsRmb19mZ3VmTgY2bgMHZuF2c19Ga0JCIs42bpN3clJHclREI0FWZydEIlhGdg4WS"
+ },
+ {
+  "q": "Why was the Canadian Pacific Railway important for Confederation?",
+  "o": [
+   "It was built only to move soldiers during the American Civil War",
+   "It fulfilled a promise to British Columbia, linked the country east to west, and helped settle the West",
+   "It was the main reason Newfoundland joined in 1867",
+   "It replaced the need for any provincial governments"
+  ],
+  "h": "Remember what Canada promised British Columbia in 1871.",
+  "x": "zAjMTCo4yAjMg4CcwBCL5AiLoNEI7UjMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4i4iclZXZy9mZgMXZpJXahJHcgUGa0BiZvBSZjFmZgUGa0BCZldmbhh2YgkXZoRFIuMncl12bjdXZuBSeuFWbgQHanV3byJmIgkXY3xWahJHIlhGdgwSZtlGdgIXZ29EIi4Cd19GIz5WYjlmcl1WQgUGa0BCclV2agQmbhBibvlGdhJXZkVmZu92Qg8GdulGIhlmYtVHbvNEIoNXa0lmcCByZulmciByb0BCZlB3boBSYkFmbhNEIsQXagcmbpRGbpVnYgknQiAiLpUjMyAiLwhCIzJXYllHIwEDIulGa0l2dgISehdHbpFmcgwWY05WZulGdu92Yz5WYyRHIhJCIDJEIkV2cp12byBHIhRWYuF2Q"
  }
 ]
 };
