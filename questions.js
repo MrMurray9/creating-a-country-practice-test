@@ -1,4 +1,4 @@
-/* Unit 2: Practice Test, Version 5. */
+/* Unit 2: Practice Test, Version 6. */
 window.QUIZ = {
   title: "Unit 2: Practice Test",
   k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypTmgKNNX3lg==",
@@ -367,15 +367,15 @@ window.QUIZ = {
   "x": "0YTMTCo4yYTMgwCM2EDIuAHcgwyNg4CaDByav9mY0hXZU5Jki7SZ09mdgQGb192YgUGbw9WZwBiZvBCduV2YgIXZwBSMxASes52bgQmbhBCL0V3bgQWZ5FGdzBCZuFGbk5WdvZ2dl5EIk5WYgkURQBiIuUmcpBXbFBCazlGdpJnQgUGa0BiZvBCdyFGcgQWZulWYtVmcgEGZh5WYDBiLzJXahZmZhBibnlWZy9mZgQmbhBSZj5WZmVGZgQWZsx2byRnbvNGIsxWa0NHIulWY0lmcCJCI0VnQg4yc05WZt5mclZ3bnBCbhl2YulmdvJHcgQmbhBCbhJHduV2YggGdpdHI5JHduV3bjBCbhJXZkVmZgEGIhRWYuF2QgY2bg42bp5Wat9GRgUGa0BSZkFWbgQ3YBBSQOJEIlhGV"
  },
  {
-  "q": "What did Canada offer to build so that British Columbia would join Confederation?",
+  "q": "When Saskatchewan became a province in 1905, why did Regina seem the obvious choice for its capital?",
   "o": [
-   "A road across the prairies within 10 years",
-   "A bridge from Vancouver Island to the mainland",
-   "A canal linking BC with the prairies",
-   "A railway across Canada within 10 years"
+   "Its voters had supported Laurier's Liberals in the 1904 election.",
+   "It was the only prairie city on a railway line.",
+   "Queen Victoria had chosen it as the capital.",
+   "It was already the capital of the North-West Territories."
   ],
-  "h": "BC asked for one thing, but Canada offered something even better.",
-  "x": "==QNyIDIuAHIsATMg4CaDByav9mY0hXZU5Jki7SM3gTMgkHb1pEIwIDIu9GIlNmbpZ3byBHIoRHepNHIzdSYkFmbhNEIl1WYjVmYgMkQgIiLzJXYllHIwEDIulGa0l2dgQXag8GZgQGb192dgkXZoRHIk5WYUCo45F2dslWYyBCbhRnbl5Wa052bjNnbhJHdgEGIkxWa1JGIvRHIkVmclZmZvBSelhGVg4CZh9mcgEGIuFGa0BiclRHdlJGIn5WaoRXZt92cgQGbpVnYg8GdgQWZyVmZm9GIhRWYuF2QiACLkFWZ0NnbJBiLzVWaylWYyBHIlhGdgM3cvJ3YhBCZh9mcgEGIy9mZgQWZrNXYgMXZ0F2ZlxWZkBycnMkQ"
+  "h": "Think about what Regina already was before Saskatchewan existed.",
+  "x": "=UzMyACLyMjMg4CcwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBibhdXZoNGdht2chN1LhRnclJGbBBic19WegUWZThCIukHdpNGIsFGdpBXYjBSZoRHIh5WanVmUgUGZh1GIkFGagQ3YBBycllmcvRXayJXZUBCdzV2VtgGdy9mTgUGaUBiIuMXZpJ3b0lmcyVGVgQ3cldVLoRncv5EIlhGdgY2bgwWY0lGchNGIlhGdg4WZlJGI5RWYlJHbhBCZhhGI0lEIuU2Yp9GajByc19Wa2J2bgUGa0BCZl1WZlNHIh5WanVmUgwibhdXZoNGdht2chNFIulkI"
  },
  {
   "q": "When Alberta became a province in 1905, which city did Prime Minister Laurier choose as its capital?",
@@ -386,7 +386,7 @@ window.QUIZ = {
    "St. Albert"
   ],
   "h": "Laurier rewarded the city whose voters had supported his Liberal Party in the 1904 election.",
-  "x": "1MjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLuF2dlh2Y0F2azF2UgY2bgwWY0lGchNGIlhGdgUWbhNWZiBSYul2ZlJFIi4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
+  "x": "=UzMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4i4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
  },
  {
   "q": "What was Prince Edward Island's \"Land Question\"?",
