@@ -76,13 +76,7 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
 .r-no{color:var(--red);font-weight:700}
 .r-skip{color:var(--muted);font-weight:700}
 .review-list button{font:inherit;background:none;border:none;color:var(--navy);text-decoration:underline;cursor:pointer;padding:0}
-.key-section{margin:1.5rem 0 2rem;display:flex;flex-wrap:wrap;gap:.6rem}
-.answer-key{flex-basis:100%;background:var(--white);border-radius:var(--radius);padding:1.5rem;border-top:6px solid var(--sky)}
-.answer-key h2{color:var(--navy);margin-top:0}
-.key-list{padding-left:1.6rem}
-.key-list li{margin:.6rem 0;break-inside:avoid}
-.k-think{display:inline-block;margin-left:.5rem;padding:.05rem .5rem;border-radius:99px;background:var(--sky);color:var(--navy);font-size:.8rem;font-weight:700;vertical-align:middle}
-.key-list .k-ans{font-weight:700;color:var(--navy)}
+.tools{margin:1.5rem 0 2rem;display:flex;flex-wrap:wrap;gap:.6rem}
 .print-only{display:none}
 .print-booklet{display:none}
 .site-footer{background:var(--navy);color:var(--sky-light);font-size:.85rem;padding:1rem 0;text-align:center}
@@ -98,14 +92,11 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
   .site-header{background:#fff;color:#000;border-bottom:2px solid var(--navy);-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .site-header .logo{content:url(images/aurora-logo.png)}
   .school-name{color:var(--navy)} .school-sub{color:#333}
-  .intro .topics,#start,#quiz,#results,.key-section>.btn,.site-footer,.skip{display:none!important}
-  .answer-key{padding:0;border:none}
-  body:not(.key-open) .print-booklet{display:block}
-  body:not(.key-open) .intro .topics{display:none}
-  .print-booklet ol{padding-left:1.5rem}
+  .intro .topics,#start,#quiz,#results,.tools,.site-footer,.skip{display:none!important}
+  .print-booklet{display:block}
+    .print-booklet ol{padding-left:1.5rem}
   .print-booklet li{margin:0 0 .8rem;break-inside:avoid}
   .print-booklet ol ol{list-style:upper-alpha;margin-top:.2rem}
   .print-booklet ol ol li{margin:0}
-  .key-list{columns:2;column-gap:2rem}
-  .print-only{display:block}
+    .print-only{display:block}
 }

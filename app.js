@@ -1,16 +1,23 @@
 (function(){
   "use strict";
   var Q = window.QUIZ.questions, L = ["A","B","C","D"], N = Q.length;
-  var answers, hints, idx;
+  var answers, hints, idx, K = atob(window.QUIZ.k);
+  // Light obfuscation only: there is no server, so this just stops casual peeking.
+  function ans(i){ return ((((K.charCodeAt(i) ^ 0x5A) - ((i*31+17) & 255) - 1) & 255)); }
+  function info(i){
+    var b = atob(Q[i].x.split("").reverse().join("")), u = new Uint8Array(b.length);
+    for(var j=0;j<b.length;j++) u[j]=b.charCodeAt(j);
+    var t = new TextDecoder().decode(u).split("\u241e"); return {e:t[0], ref:t[1]};
+  }
   var $ = function(id){ return document.getElementById(id); };
   var el = function(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; };
 
   function reset(){ answers = new Array(N).fill(null); hints = new Array(N).fill(false); idx = 0; }
-  function score(){ return answers.reduce(function(s,a,i){ return s + (a===Q[i].a ? 1 : 0); },0); }
+  function score(){ return answers.reduce(function(s,a,i){ return s + (a!==null && a===ans(i) ? 1 : 0); },0); }
   function show(id){ ["start","quiz","results"].forEach(function(s){ $(s).hidden = (s!==id); }); }
 
   function render(){
-    var item = Q[idx], picked = answers[idx], locked = picked !== null;
+    var item = Q[idx], picked = answers[idx], locked = picked !== null, A = locked ? ans(idx) : -1;
     $("progressLabel").textContent = "Question " + (idx+1) + " of " + N;
     $("scoreLabel").textContent = "Score: " + score() + " / " + answers.filter(function(a){return a!==null;}).length;
     $("progressFill").style.width = ((idx+1)/N*100) + "%";
@@ -25,7 +32,7 @@
       b.appendChild(el("span","otext",opt));
       if(locked){
         b.disabled = true;
-        if(i===item.a){ b.classList.add("correct"); b.appendChild(el("span","mark","✓ Correct answer")); }
+        if(i===A){ b.classList.add("correct"); b.appendChild(el("span","mark","✓ Correct answer")); }
         else if(i===picked){ b.classList.add("wrong"); b.appendChild(el("span","mark","✗ Your answer")); }
         else b.classList.add("dim");
       } else {
@@ -43,12 +50,12 @@
 
     var fb = $("feedback");
     if(locked){
-      var ok = picked===item.a;
+      var ok = picked===A, inf = info(idx);
       fb.className = "feedback " + (ok ? "ok" : "no");
       fb.innerHTML = "";
-      fb.appendChild(el("strong",null, ok ? "✓ Correct!" : "✗ Not quite. The correct answer is " + L[item.a] + "."));
-      fb.appendChild(el("span",null,item.e));
-      if(item.ref) fb.appendChild(el("span","ref",item.ref));
+      fb.appendChild(el("strong",null, ok ? "✓ Correct!" : "✗ Not quite. The correct answer is " + L[A] + "."));
+      fb.appendChild(el("span",null,inf.e));
+      if(inf.ref) fb.appendChild(el("span","ref",inf.ref));
       fb.hidden = false;
     } else fb.hidden = true;
 
@@ -75,13 +82,13 @@
     $("finalMsg").textContent = msg;
     var list = $("reviewList"); list.innerHTML = "";
     Q.forEach(function(item,i){
-      var li = el("li"), a = answers[i];
+      var li = el("li"), a = answers[i], c = ans(i);
       li.appendChild(el("div","r-q",item.q));
       var line = el("div");
       if(a===null){ line.appendChild(el("span","r-skip","— Not answered. ")); }
-      else if(a===item.a){ line.appendChild(el("span","r-ok","✓ Correct: ")); line.appendChild(document.createTextNode(L[a]+") "+item.o[a])); line.appendChild(el("br")); }
+      else if(a===c){ line.appendChild(el("span","r-ok","✓ Correct: ")); line.appendChild(document.createTextNode(L[a]+") "+item.o[a])); line.appendChild(el("br")); }
       else { line.appendChild(el("span","r-no","✗ Your answer: ")); line.appendChild(document.createTextNode(L[a]+") "+item.o[a])); line.appendChild(el("br")); }
-      if(a!==item.a){ line.appendChild(el("strong",null,"Correct answer: ")); line.appendChild(document.createTextNode(L[item.a]+") "+item.o[item.a])); line.appendChild(el("br")); }
+      if(a!==c){ line.appendChild(el("strong",null,"Correct answer: ")); line.appendChild(document.createTextNode(L[c]+") "+item.o[c])); line.appendChild(el("br")); }
       var jump = el("button",null,"Go to question"); jump.type="button";
       jump.addEventListener("click", function(){ show("quiz"); go(i); });
       line.appendChild(jump);
@@ -90,16 +97,9 @@
     show("results"); $("resultsHeading").focus();
   }
 
-  function buildStatic(){
-    var kl = $("keyList"), bl = $("bookletList");
+  function buildBooklet(){
+    var bl = $("bookletList");
     Q.forEach(function(item){
-      var li = el("li");
-      li.appendChild(el("div",null,item.q));
-      var ans = el("div"); ans.appendChild(el("span","k-ans", L[item.a]+") "+item.o[item.a]));
-      if(item.th) ans.appendChild(el("span","k-think","Thinking"));
-      li.appendChild(ans); li.appendChild(el("div",null,item.e));
-      if(item.ref) li.appendChild(el("div","ref",item.ref));
-      kl.appendChild(li);
       var b = el("li"); b.appendChild(document.createTextNode(item.q));
       var ol = el("ol"); item.o.forEach(function(o){ ol.appendChild(el("li",null,o)); });
       b.appendChild(ol); bl.appendChild(b);
@@ -111,13 +111,6 @@
   $("nextBtn").addEventListener("click", function(){ if(idx<N-1) go(idx+1); else results(); });
   $("hintBtn").addEventListener("click", function(){ hints[idx]=true; render(); });
   $("retakeBtn").addEventListener("click", function(){ reset(); show("quiz"); go(0); });
-  $("keyToggle").addEventListener("click", function(){
-    var k = $("answerKey"), open = k.hidden;
-    k.hidden = !open; $("printBtn").hidden = !open;
-    document.body.classList.toggle("key-open", open);
-    this.setAttribute("aria-expanded", open ? "true" : "false");
-    this.textContent = open ? "Hide answer key" : "Show full answer key";
-  });
   $("printBtn").addEventListener("click", function(){ window.print(); });
   document.addEventListener("keydown", function(e){
     if($("quiz").hidden || e.target.tagName==="INPUT") return;
@@ -127,5 +120,5 @@
     else if(e.key==="ArrowLeft") $("prevBtn").click();
   });
 
-  reset(); buildStatic();
+  reset(); buildBooklet();
 })();
