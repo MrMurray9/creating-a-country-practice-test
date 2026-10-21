@@ -12,6 +12,7 @@
   var $ = function(id){ return document.getElementById(id); };
   var el = function(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; };
 
+  $("progressBar").setAttribute("aria-valuemax", N);
   function reset(){ answers = new Array(N).fill(null); hints = new Array(N).fill(false); idx = 0; }
   function score(){ return answers.reduce(function(s,a,i){ return s + (a!==null && a===ans(i) ? 1 : 0); },0); }
   function show(id){ ["start","quiz","results"].forEach(function(s){ $(s).hidden = (s!==id); }); }

@@ -1,7 +1,7 @@
-/* Unit 2: Practice Test, Version 2. */
+/* Unit 2: Practice Test, Version 3. */
 window.QUIZ = {
   title: "Unit 2: Practice Test",
-  k: "T24JNdT1lrdRdhEz3PyeuVl7GTsk+ueHoEZgAiPN7I6uSGsVK9X3lg==",
+  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oyp",
   questions: [
  {
   "q": "In the 1850s, the population of Canada West grew larger than that of Canada East. Why did this lead to political deadlock in the Assembly?",
@@ -79,17 +79,6 @@ window.QUIZ = {
   ],
   "h": "Think about money. Who would pay for such a huge project?",
   "x": "==gN1EDIsMTNxAiLwBHIscDIug2Qgs2bvJGd4VGVeCp4uQWZkFmdulGIz5WYjlmcl1WQgUGa0BiZpBycw92byRHIlZ3btBCZsV3bjBCZuFGIzNXZul2c1JGIy9mZgQ2bvdGIlJGIvNHbhBCZsV3b3BCdJBiIuQ3cvNGIlhGdgUmchh2cgQGb192YgMXZp52bs92YgUGa0BCbsFGIuVGaUBiLkVGdp5WdgUmcldHIzVWau9GbvNGIlhGdgYWagQWYlhWYg82ZgkHbu9GIkxWdvNGI0lEIukXZu9WbgY2bgQ3bsBSYgQ3cvNGIkxWdvdnIgkXY3xWahJHIlhGV"
- },
- {
-  "q": "Which pair of events in the 1860s made colonists worry about defending British North America?",
-  "o": [
-   "The War of 1812 and the Rebellions of 1837–38",
-   "The Seven Years' War and the fall of New France",
-   "The American Civil War and the Fenian raids",
-   "The Red River Resistance and the Klondike Gold Rush"
-  ],
-  "h": "Look for two events that took place in or near the 1860s and came from south of the border.",
-  "x": "=MTNxAiLwBCL3AiLoNEIr92biRHelRlnQKuLpcTO4EDIulGIuF2ZlJGIoNXdSBCZs92RgU2apRmbvx2SgUGa0BCLlxGctFGelBicvZGKgIXZ0FGbgI3bgIXZpxmchVGIoNWdtBCZl5WZwBXYoByc05WZ2VGIyVGa09GIlhGVg4ycud3b0BiclRmcvJGIkV2ajFGd0FGIsMnbhNWayVWbBBCazlmcJBiZvBCc19mcnBSYgwycuFWauVmRgUGa0BCL2YDOxAibJBiLoRncv5GI51mchByc0lGIuJXd0BCdodWatByclRXY0NFIkVGdp5WVgUGa0BCZlJXYlZGIzR3cp52bs92YgQmbhBCLxYDOxAibpBibhdWZiBichdFIslmdpNEIuF2YpJXZtFEIlhGV"
  },
  {
   "q": "In 1864, delegates from New Brunswick, Nova Scotia, and Prince Edward Island planned to meet in Charlottetown. What did they first want to discuss?",
@@ -224,28 +213,6 @@ window.QUIZ = {
   "x": "wYTMTCo45UTMg4CcwBCL3AiLoNEIr92biRHelRlnQKuLz5WYpRWYuF2Qgg2cpx2ZuVEI5JGIkVGbs9mc052bjBSZiBCZsV3b3BSeyRnb192YgcXZuBSZoRHI0FGa0BCZllmcy92dgMnbllGZh5WYDBSeuFWTg4ibpdHIzlXY3xWYgQGb192dgQnbl1mbyVmdvdGIpwWYyRnblNGKgwWYyVmbldGIlhGdgQWZ2VWasVmYgQmbhBiIzRnbl1mbyVmdvdGIsFmcl5WZnBCZuFGIsF2YvxGIlhGdg8Gdg4WZ2l2ZgMncld3bwBCdul2bqBSZoRHIoRXa3BycllGdsV3YpZmZpRGIlxmYhJXZtVnbulmIgcXYzVmcvZGIu9Way9GR"
  },
  {
-  "q": "Who was premier of Nova Scotia and supported Confederation even though Joseph Howe opposed it?",
-  "o": [
-   "Charles Tupper",
-   "Leonard Tilley",
-   "J.H. Gray",
-   "George Brown"
-  ],
-  "h": "George Brown was from Canada West, so think about the three Maritime premiers in the 1864 sketch of the founders.",
-  "x": "=AjNxACL4UTMg4CcwBCL3AiLoNEIr92biRHelRlnQKuIu42bp5Wdg4WavpGIvRHIkVGdvZHIhlGdvN2UgEmdv5EIsQmblBSZoRHIulmIgwibvlGdpN3bwB3bgM3Jld3bIBSZ0lGczVGRgIiLhlGdvN2UgEmdv5EIm9GIyVWatVmcwBCLyVGcwVHVgMXZsJXYoNkIgQWZkVHbj5Wag42bpRXYyVGZlZmbvNEIm9GIzJXZk5WdvZGIlhGV"
- },
- {
-  "q": "In 1864, who was premier of New Brunswick and one of the founders of Confederation?",
-  "o": [
-   "Charles Tupper",
-   "J.H. Gray",
-   "Joseph Howe",
-   "Leonard Tilley"
-  ],
-  "h": "Think about the colony whose most important city was Saint John.",
-  "x": "==AO1EDIuAHIscDIug2Qgs2bvJGd4VGVeCp4u42bp5WdgQWZz9Gcw9GIld3bIBCawV2cvpEIk5WYgwSSFBFIm9GIyVWatVmcwBychdHI5FmcHBiLI5iSgwSYpR3bjNFIhZ3bOBiZvBicllWblJHcgMXY3BiclBHc1RFIi4yajl2dz5WdyJEI3VmTgY2bgIXZp1WZyBHIskXZsxWaUBCZyFmbvVGTiACZlRWdsNmbpByclNmblJXZm52bjBCN2gTMgUGa0BCZlRmblRHdhBybodHIzJXZk5WdvZGIlhGV"
- },
- {
   "q": "Where did John A. Macdonald head the 1866 meeting that drew up the British North America Act?",
   "o": [
    "Charlottetown",
@@ -345,17 +312,6 @@ window.QUIZ = {
   "x": "zYTMg4CcgwyNg4CaDByav9mY0hXZU5Jki7ycyV2dvBHIsFmclRWZmBSZyV2dgU2YpZmZvBCdz9GcgUGa0BCZuFGIscXYsBCbh5WatlmcjBCLzVWayVGazlmZgwSZj5WZmVGZgwSej5WZyJXdjBCLn5War5WYCBiLzRnc192YgQmbhBiIzVWa0lGbhBXajlmb11GIsMHbhRXawN3boBCLzlXY3h2ZphGIsM3ay92dgwWYj9GbgwibvlGdhNWdkVGIsMHdodWayBCbpZXajBCZuFGI5RnclB3byBnIgQWZkVHbj5WagMncld3bwBCbhl2YulmdvJHU"
  },
  {
-  "q": "According to the BNA Act, the federal government can make laws for what purpose?",
-  "o": [
-   "Life, liberty, and the pursuit of happiness",
-   "Peace, order, and good government",
-   "Liberty, equality, and fraternity",
-   "Responsible and representative government"
-  ],
-  "h": "This phrase has become part of the Canadian identity. The first two choices are mottos from other countries.",
-  "x": "=MjNxAiLwBCL3AiLoNEIr92biRHelRlnQKuIukHdpRnblRWag4WYpRWYuF2QgUGa0BiZvBCdyFGcgUWbvNWZiBychhGIlNXYyhGcgMXaoRFIuEGZh5WYDBiZvByJ05WZt5mclZ3bnBCZv92ZgQmbhBCLyVGZy9GIsU2YhVGcnASZoRHIy9mZgM3dhxGIltWYtByb0Bicld3bwBSZoRHIzFGagQnbl1mbyVmdvdGIsFmclRWZmBSZoRHI0FGa0ByclRXY0NHI0NWQgEkTCBSZoRlI"
- },
- {
   "q": "In 1867, nobody knew about airplanes or the Internet. Under the BNA Act, which government has power over new things like these?",
   "o": [
    "The provinces, because they control all local works",
@@ -365,17 +321,6 @@ window.QUIZ = {
   ],
   "h": "Powers over things no one knew about in 1867 have a special name in the chart of powers.",
   "x": "zYTMg4CcgwyNg4CaDByav9mY0hXZU5Jki7CZlJXYoNHIlJXZ3BibvlGdhJ3Zp1WbpBCZuFGIlJXd0xWdjlmcnFGI5xmbPBiL05WZt5mclZ3bnBCbhJXZkVmZgUGa0Byb0BycyV2dvBHIsFWdkl2clJHIlZXYnBCdjFEIB5kQgUGaUBiIuQXZuJXZ05WSgUGa0BCZuFGIsMXZuFGbwJXahBCLzVmbvhGclxWZ0BychBCajV3cgM3ZulGa0BSZkVHbj5WagkXZoRFIucjN4EDIulGI0V3biFGI3VmbrBSZu9GIv5GI0FGa0Bycn5WaoRHIyVmdvBycyV2dvBHIlhGdgUmchJCIzJXZ39GcgwWY1RWazVmU"
- },
- {
-  "q": "Why did the founders of Confederation choose a strong central government?",
-  "o": [
-   "They wanted Canada to copy the American system of strong states.",
-   "The US Civil War had been partly a fight over state power.",
-   "The Maritime colonies asked for a government with all the power.",
-   "Britain required every colony to have only one government."
-  ],
-  "h": "What had the founders just watched happen in the United States?",
-  "x": "zYTMg4CcgwyNg4CaDByav9mY0hXZU5JkiLiL05WZt5mclZ3bnBCbhJHduV2YgcmbvJHdzBSYgUmdhhGIvRHIlN3boNGI5VGaUBiLu4CduVWbuJXZ292ZgwWYyRnblNGIlhGdgI3bgMXZ0FGdzBSZoRHI6IXZ39GcgUmcv1GIlZXYoBCZsV3boNHIvh2dgQXdvJWYgQHanlmZgEGIuVWZiBCZhhGIyF2dgMXaoRHIsQnchBHIulEIuMXZ0FGdTBCZlRXauVFIlhGdg4WagIXYXBCbpZXaDBSZoRHIkV2czVmb0l2dgQ3c1pGIkFGagwiclZXZ39GagwycyVGZuV3bmBSZoRlI"
  },
  {
   "q": "First Nations were not consulted about Confederation. What did Section 91(24) of the BNA Act do?",
@@ -409,28 +354,6 @@ window.QUIZ = {
   ],
   "h": "The Governor General stood in for someone who lived in Britain.",
   "x": "yYTMg4CcgwyNg4CaDByav9mY0hXZU5Jki7iclR3cp5WatBSZtlmcwBSZoRHI5JGIuV2cvh2Yg4WZlJGIzFGagwWYyVmbldEIy9mbyVmdvdEIlhGdgwSNzkTMgU2Yul2UgIiLhRWYuF2Qg4Wagg2YyFmbv1GIlhGdgQnblNXZyBXZyBCZsV3b3BCbhJXZuV2RgI3buJXZ292RgEEIuUGdhR3cgY2bgQWYlhGIzdSYkFmbhNEIzF2dgg2YyFmbv1GIoNXa0lmcCBSZoRlI"
- },
- {
-  "q": "Section 93 of the BNA Act gave the provinces control over education. What was one result outside Québec?",
-  "o": [
-   "Every province had to offer schooling in French.",
-   "The federal government ran French schools instead.",
-   "Many Francophones could not get schooling in French.",
-   "Separate Catholic schools were banned in Ontario and Québec."
-  ],
-  "h": "The textbook says provinces besides Québec used this power to deny something.",
-  "x": "1MjMTCo40MjMg4CcwBCLwEDIug2QgsDN2EDIsAjNxAiLwBHIscDIug2Qgs2bvJGd4VGVeCp4ukSekVHdzBSZzF2YgQ3YBBSY0JXZixWQgUGa0BSZlNHKgQWZ0NWZ09mcwBSZyV2dgMWZil6w1FFIk5WYg8WayFGdu9EIulGIzVWa0lmcv5WatBicvZGIzx2bvh2YzBSZ0FmchBXZTBiIukHb05WZjVmcgwWa05Wdgg2YuVmcGBibpByZulGbv9GajNHIylWZoRHIlZXalNWZyBCdv5GIklGZgMXZu9Gaw92YuFmcGBSeuFWbgwCdsV3clJHIhBycBBiLoNmblJnRg4Wag42bpR3Y1JHdz5Wag8GdgQHanlmcgUGa0BSeuVGZg8GdgIXZ39GcgMXaoRHIkV2c1ByclNmbpZ3byBHIlhGdgwyYlJWqDXXUgMXZkl2clJkI"
- },
- {
-  "q": "Robert Baldwin and Louis-Hippolyte La Fontaine were partners in a government from 1848 to 1851. What was it called?",
-  "o": [
-   "The Family Compact",
-   "The Great Ministry",
-   "The Château Clique",
-   "The Clear Grits"
-  ],
-  "h": "Its name shows how much this partnership achieved.",
-  "x": "==QM1EzkAKOM1EDIuAHcgwyNg4CaDByav9mY0hXZU5Jki7SblR3c5NHIs92boN2cgMWasJWdwBCdzJXamBycnEGZh5WYDBibhdWZiBCZuFGI05WZt5mclZ3bnBSZsJWaz52bwNXZyBicvZGI0h2Z19mZgkXZoRFIi4SM1gTMg8GdggDN4EDIt9mcmBSeyR3cp5WaNBCdhVmcHBSYg4WagMncl5GdyFGcgUmcldHIl5WahRnbvZEIhxEIk5WYg4Wa3RGbhJkI"
  },
  {
   "q": "Which statement best sums up what Confederation achieved in 1867?",
