@@ -389,15 +389,15 @@ window.QUIZ = {
   "x": "1MjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLuF2dlh2Y0F2azF2UgY2bgwWY0lGchNGIlhGdgUWbhNWZiBSYul2ZlJFIi4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
  },
  {
-  "q": "The Manitoba Act of 1870 created Canada's fifth province. Which was one of its terms?",
+  "q": "In 1869, Canada bought Rupert's Land. Who did Canada buy it from?",
   "o": [
-   "Only English would be used in the new province's schools and courts.",
-   "French and English would both be used in its government.",
-   "Louis Riel would serve as Manitoba's first premier.",
-   "It would send ten members to the Senate in Ottawa."
+   "The British Parliament in London",
+   "The Hudson's Bay Company",
+   "The North West Company",
+   "The government of the United States"
   ],
-  "h": "The Act tried to meet the needs of both French-speaking and English-speaking residents.",
-  "x": "2gTMTCo41gTMg4CcwBCL4AiLoNEIr92biRHelRlnQKuLzJXYllHIlZXamBicvZGIkVGazlmbhJGIzF2dgQmbhBSYkFmbhNEIlZXYlxGIvRHIkFGagwWZpJFIuUGdh5WZTBSZoRHIulGIzJXZi1WZtByb3RHIhJ2b0lmbh1EIlZXYnBCZuFGIz1WZ0NXezBCbv9GajNHIjlGbvhGdhNEIk5WYgQnbhR3clR3byBFIwVHI0V2cg82csFGI0lEIi4yc0JXdvNGIk5WYgQnbl1mbyVmdvdGIlhGdg4WagQWZzVHIlJGIkxWdvdHIoNXasdmbFBCZuFGIoNmblJnRggGdvJmIgQXYoRHIklWYzBCdjFEIhJ2b0lmbh1EIlhGV"
+  "h": "Look back at the 1860 map in Chapter 7. Who controlled Rupert's Land?",
+  "x": "=kDNxAiLwBCL3AiLoNEI7IzMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBibhdXZoNGdht2chN1LhRnclJGbBBic19WegUWZTBiIuQXagQWZsx2byRnbvNGI55WYw12bDBSehJEIzdibvNHZ1hEIlhGVg4Seu9GbvNGIhBCdv5GIzF2diACZuFGTgM3J0JXZwVnUgQXYoRHIzVGdv5GIvNHbhByNgIXZ0BXYoNEKg4ibhdXZoNGdht2chNFIk5WYgEGdyVmYsFEIl1WYjVmYgIXZ0FGbgQXYoRHIk5WYsBSZoRHIsMXZpJ3b0lmcyVGVgQ3cldVLoRncv5EIlhGdgUWbhNWZiBCdpBiZvBCajVXTgIiL5YDOxAibpBSeuFGct92QgkXYCBycn42bzRWdIBSZoRHIt9mcmBCZuFGTgM3J0JXZwVnUgQWZzFGajJXdwBSYkFmbhNkI"
  },
  {
   "q": "When Saskatchewan became a province in 1905, why did Regina seem the obvious choice for its capital?",
