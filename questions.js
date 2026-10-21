@@ -1,169 +1,570 @@
-/* Unit 2 Practice Test: Creating a Country (1850s–1867)
-   Question order, wording and answer letters follow the original test.
-   answer: index of correct option (0 = A, 1 = B, 2 = C, 3 = D). */
+/* Unit 2 Practice Test: Creating a Country (1850s–1867), Version 2.
+   Facts checked against the Social 7 textbook (Voices and Visions), mainly Ch. 7 pp. 146–165.
+   a: index of correct option (0 = A ... 3 = D). th: Thinking item (shown in answer key only). */
 window.QUIZ = {
   title: "Unit 2 Practice Test: Creating a Country (1850s–1867)",
   subtitle: "Chapter 7 & Unit 2 Slides (2.1–2.5) • 40 multiple-choice questions",
+  version: "Version 2",
   questions: [
-{q:"In the 1850s, the Province of Canada suffered from 'political deadlock.' What was the primary cause of this situation?",
- o:["The Governor General refused to sign laws passed by the assembly.","Canada East and Canada West had equal representation in the assembly and frequently voted against each other.","The Maritime colonies imposed heavy tariffs on goods from Upper Canada.","The British Parliament revoked the Act of Union."],a:1,
- h:"Think about how seats in the assembly were split between the two halves of the Province of Canada.",
- e:"Equal seats between Canada East and Canada West meant neither side could form a lasting majority. As Canada West's population grew, it demanded rep by pop, and \"the fight over rep by pop led to deadlocks in the Assembly.\"",ref:"Textbook Ch. 7, pp. 150–151"},
-{q:"What was the principle of 'Representation by Population' (rep by pop) demanded by Canada West politicians?",
- o:["Every colony should have an equal number of votes regardless of size.","Only property-owning citizens should be allowed to vote in elections.","The number of elected representatives should correspond directly to the population size of a region.","French and English representatives must hold an equal ratio in the Senate."],a:2,
- h:"Read the name of the principle closely: representation by what?",
- e:"Rep by pop meant regions with larger populations (like Canada West in the 1850s) received more legislative seats.",ref:"Textbook Ch. 7, p. 151"},
-{q:"Who was the leader of the Clear Grits in Canada West who strongly advocated for Representation by Population?",
- o:["John A. Macdonald","George Brown","George-Étienne Cartier","Joseph Howe"],a:1,
- h:"This Reform leader was also the founder and editor of the Toronto newspaper The Globe.",
- e:"George Brown led the Reformers / Clear Grits and pushed for rep by pop.",ref:"Textbook Ch. 7, p. 150"},
-{q:"Which political party in Canada East was led by George-Étienne Cartier and supported cooperation with English-speaking conservatives?",
- o:["Les Rouges","Les Bleus","Clear Grits","Reformers"],a:1,
- h:"The two main parties in Canada East were named after colours. This one was the more conservative of the two.",
- e:"Les Bleus were conservative, business-oriented Canadiens who favoured cooperation to protect Canadien interests.",ref:"Textbook Ch. 7, p. 150"},
-{q:"How did the end of the British mercantile system and Corn Laws impact the British North American colonies?",
- o:["Colonies gained free trade with all European nations.","Colonial goods lost their tax-free protected status in Britain, forcing colonies to look for new trade partners.","Britain forced the colonies to adopt American currency.","The United States placed an immediate naval blockade on Atlantic ports."],a:1,
- h:"Under mercantilism, colonial goods got special treatment in British markets. What happens when that special treatment ends?",
- e:"By 1846, Britain began free trade with all countries, so \"the colonies no longer had an assured market for their goods.\" Britain urged its colonies to look for other markets, and they turned to the United States.",ref:"Textbook Ch. 7, pp. 151–152"},
-{q:"What major economic agreement between British North America and the United States ended in 1866, increasing the need for intercolonial trade?",
- o:["The Jay Treaty","The Reciprocity Treaty","The Treaty of Paris","The Oregon Boundary Treaty"],a:1,
- h:"This 1854 agreement let certain goods cross the border without tariffs. Its name means a mutual exchange.",
- e:"The Reciprocity Treaty allowed free trade between BNA colonies and the US from 1854 until the US ended it in 1866.",ref:"Textbook Ch. 7, pp. 152–153"},
-{q:"Why was the construction of an intercolonial railway seen as essential for Confederation?",
- o:["It was required to transport troops for defence and move trade goods between Atlantic ports and central Canada year-round.","Britain refused to govern any colony without a transcontinental railway.","It was built exclusively to carry mail to Rupert's Land.","The United States offered to build it for free if the colonies united."],a:0,
- h:"Think about what happened to the St. Lawrence River every winter, and why that mattered for trade and defence.",
- e:"A railway linking Canada West with Halifax would be good for business, and if there were an American invasion it \"could move in troops.\" The project was so expensive that it could only go ahead if the colonies united and shared the cost.",ref:"Textbook Ch. 7, pp. 153, 156"},
-{q:"What defence threat from the south contributed to the urgency of colonial union during the 1860s?",
- o:["The War of 1812","The American Civil War and potential U.S. expansionism (Manifest Destiny)","The Spanish-American War","The Fenian Raids from Mexico"],a:1,
- h:"Check the dates. Which event was actually happening in the United States during the early 1860s?",
- e:"The American Civil War (1861–1865) and the belief in Manifest Destiny made colonists fear an American invasion, a strong reason for union. The Fenian Raids of 1866 were also a real threat, but the Fenians were Irish Americans who attacked from the United States, not Mexico.",ref:"Textbook Ch. 7, p. 153"},
-{q:"What was the initial purpose of the Charlottetown Conference held in September 1864?",
- o:["To draft the British North America Act.","For Nova Scotia, New Brunswick, and PEI to discuss a Maritime Union.","To elect John A. Macdonald as Prime Minister.","To sign a peace treaty with the United States."],a:1,
- h:"Charlottetown is in PEI. Which colonies first planned to meet there, and what did they want to talk about?",
- e:"Charlottetown was originally planned for Maritime delegates to discuss uniting PEI, Nova Scotia, and New Brunswick.",ref:"Textbook Ch. 7, p. 158"},
-{q:"How did delegates from the Province of Canada get involved in the Charlottetown Conference?",
- o:["They were invited by the British King to lead the meeting.","They asked to attend and presented a dramatic proposal for a broader union of all BNA colonies.","They crashed the meeting uninvited and forced a vote.","They attended only as neutral observers without speaking."],a:1,
- h:"The Canadians were not on the original guest list, but they did not barge in either.",
- e:"Canadian politicians requested permission to attend and convinced Maritimers to consider a broader confederation.",ref:"Textbook Ch. 7, p. 158"},
-{q:"At the Quebec Conference in October 1864, delegates negotiated and drafted which foundational document?",
- o:["The Ninety-Two Resolutions","The Seventy-Two Resolutions","The Treaty of Union","The Declaration of Rights"],a:1,
- h:"The Ninety-Two Resolutions were written by Louis-Joseph Papineau in 1834, long before Quebec 1864.",
- e:"The Seventy-Two Resolutions laid out the framework for Canada's federal structure and government.",ref:"Textbook Ch. 7, p. 159"},
-{q:"What political concept did George Brown propose to break political deadlock and reassure the Maritime colonies?",
- o:["Absolute Monarchy","Federalism (a central government for national affairs and provincial governments for local affairs)","Direct Democracy by referendum","Unitary Legislative Union"],a:1,
- h:"The Maritimes worried about being swamped. Which system lets them keep their own governments for local matters?",
- e:"Federalism gave central powers to Ottawa while preserving provincial control over local matters like education and culture.",ref:"Textbook Ch. 7, p. 158"},
-{q:"Who was the vocal Nova Scotian opponent of Confederation who dubbed it the 'Botheration Scheme'?",
- o:["Charles Tupper","Joseph Howe","Leonard Tilley","Antoine-Aimé Dorion"],a:1,
- h:"This Nova Scotian was a famous newspaper editor and champion of responsible government in his colony.",
- e:"Joseph Howe argued Nova Scotia would pay higher taxes and lose influence in a union dominated by Canada West and East.",ref:"Textbook Ch. 7, pp. 157, 160"},
-{q:"What key incentive finally convinced New Brunswick to support Confederation after initially voting against it?",
- o:["A promise that Fredericton would become the national capital.","British pressure and the promise of a guaranteed railway link.","Free land grants in Rupert's Land.","The complete abolition of provincial taxes."],a:1,
- h:"Think back to Question 7: what transportation project did the Maritimes want?",
- e:"British diplomatic pressure and the economic incentive of an intercolonial railway convinced New Brunswick voters.",ref:"Textbook Ch. 7, p. 160"},
-{q:"Why did Prince Edward Island initially refuse to join Confederation in 1867?",
- o:["They felt too small and isolated, fearing their voice would be swamped, and wanted more money and more Members of Parliament.","They wanted to join the United States immediately.","John A. Macdonald refused to invite PEI delegates to Quebec.","PEI was already an independent nation with its own monarch."],a:0,
- h:"PEI is the smallest colony. How might a small colony feel about joining a much bigger union?",
- e:"PEI was isolated and \"too small. It would be swamped by the other colonies.\" Islanders also wanted more money and more Members of Parliament. PEI joined in 1873 after Canada promised to take over its railway costs and buy back land from absentee landowners in Britain.",ref:"Textbook Ch. 7, p. 160; Ch. 10, pp. 227–229"},
-{q:"When did Newfoundland eventually join Canadian Confederation?",
- o:["1867","1873","1905","1949"],a:3,
- h:"Newfoundland was the last province to join, after the Second World War.",
- e:"Newfoundland rejected Confederation in the 1860s and remained a separate colony/dominion until joining Canada in 1949.",ref:"Textbook Ch. 7, p. 160; Ch. 10, p. 239"},
-{q:"What historic political arrangement in 1864 brought rival political leaders together to pursue Confederation?",
- o:["The Great Coalition","The Château Alliance","The Family Compact","The Maritime Accord"],a:0,
- h:"A coalition is when rivals join together. The Family Compact was an earlier ruling elite in Upper Canada.",
- e:"In 1864, George Brown convinced his Clear Grits to join a coalition with John A. Macdonald's Liberal-Conservatives and Cartier's Les Bleus. (Historians call this the Great Coalition; your textbook simply calls it a coalition.)",ref:"Textbook Ch. 7, p. 158"},
-{q:"Who is widely recognized as the primary political architect and first Prime Minister of Canada?",
- o:["George Brown","John A. Macdonald","Alexander Mackenzie","Robert Baldwin"],a:1,
- h:"Alexander Mackenzie was Canada's second Prime Minister. Who came first?",
- e:"John A. Macdonald led negotiations, drafted much of the BNA Act, and became Canada's first Prime Minister.",ref:"Textbook Ch. 7, pp. 161–162"},
-{q:"Why was George-Étienne Cartier's role crucial in convincing French-speaking Canadiens to support Confederation?",
- o:["He promised that French would become the only official language in all provinces.","He assured Canadiens that provincial control over local matters like education and civil law would safeguard French language and culture.","He advocated for Lower Canada to annex Ontario.","He arranged for the Pope to head the Canadian Senate."],a:1,
- h:"Canadiens wanted to protect their language, religion and laws. Which level of government would control those things?",
- e:"Cartier believed that \"federalism would give the Canadiens control over matters that affected them directly.\" Section 93 of the BNA Act gave the provinces control over education.",ref:"Textbook Ch. 7, p. 160"},
-{q:"Which radical leader of Les Rouges in Canada East strongly opposed Confederation, fearing general government dominance?",
- o:["Antoine-Aimé Dorion","Étienne-Pascal Taché","Louis-Hippolyte La Fontaine","Charles Tupper"],a:0,
- h:"Cartier led Les Bleus. This person led the rival party, Les Rouges, in the 1860s.",
- e:"Antoine-Aimé Dorion was the leader of Les Rouges, a group of Canadien radicals. Les Rouges feared a strong central (\"general\") government. The anti-Confederation quote on page 159 comes from his brother, Jean-Baptiste-Éric Dorion.",ref:"Textbook Ch. 7, pp. 150, 159"},
-{q:"Who was the Premier of Nova Scotia who supported Confederation despite heavy opposition from Joseph Howe?",
- o:["Leonard Tilley","Charles Tupper","J.H. Gray","Thomas D'Arcy McGee"],a:1,
- h:"This Nova Scotian doctor later became Prime Minister of Canada for a short time in 1896.",
- e:"Charles Tupper led Nova Scotia into Confederation despite widespread anti-Confederation sentiment led by Joseph Howe.",ref:"Textbook Ch. 7, pp. 158, 160"},
-{q:"Who was the Premier of New Brunswick who led the pro-Confederation campaign in his colony?",
- o:["Leonard Tilley","Robert Baldwin","Lord Durham","William Lyon Mackenzie"],a:0,
- h:"Three of these people are connected to the Canadas, not New Brunswick.",
- e:"Leonard Tilley was Premier of New Brunswick and a prominent Father of Confederation.",ref:"Textbook Ch. 7, p. 158"},
-{q:"Where did colonial leaders meet in 1866 to finalize the draft of the British North America Act before presenting it to British Parliament?",
- o:["Charlottetown","Quebec City","London, England","Montreal"],a:2,
- h:"The BNA Act was a law passed by the British Parliament. Where did that Parliament sit?",
- e:"The London Conference of 1866–1867 was the final conference where delegates finalized the BNA Act.",ref:"Textbook Ch. 7, p. 161"},
-{q:"On what date did the British North America Act officially take effect, creating the Dominion of Canada?",
- o:["July 1, 1867","October 1, 1864","January 1, 1867","December 25, 1866"],a:0,
- h:"Canadians celebrate this date every summer.",
- e:"\"July 1, 1867, saw the creation of a new country: the Dominion of Canada.\" We celebrate this date as Canada Day.",ref:"Textbook Ch. 7, p. 162"},
-{q:"What were the four original provinces that formed the Dominion of Canada in 1867?",
- o:["Ontario, Quebec, Nova Scotia, and New Brunswick","Ontario, Quebec, Prince Edward Island, and Newfoundland","Canada East, Canada West, Rupert's Land, and British Columbia","Nova Scotia, New Brunswick, Prince Edward Island, and Manitoba"],a:0,
- h:"Remember which colonies refused to join in 1867 (Questions 15 and 16).",
- e:"The Province of Canada was split into Ontario and Quebec, joining Nova Scotia and New Brunswick.",ref:"Textbook Ch. 7, pp. 160, 162"},
-{q:"Under the BNA Act, who serves as the official Head of State for Canada, represented locally by the Governor General?",
- o:["The Prime Minister of Canada","The Speaker of the House","The British Monarch","The Chief Justice of the Supreme Court"],a:2,
- h:"Canada is a constitutional monarchy. Who does the Governor General represent?",
- e:"Canada maintained a constitutional monarchy where the British Sovereign (Queen Victoria in 1867) was Head of State.",ref:"Textbook Ch. 7, p. 162"},
-{q:"What are the two houses that make up Canada's federal Parliament?",
- o:["The House of Commons (elected) and the Senate (appointed)","The House of Lords and the Legislative Assembly","The Congress and the House of Representatives","The Executive Council and the Privy Council"],a:0,
- h:"Congress belongs to the United States, and the House of Lords belongs to Britain.",
- e:"Parliament consists of the elected House of Commons and the appointed Senate.",ref:"Textbook Ch. 7, p. 162"},
-{q:"How are seats distributed in the elected House of Commons?",
- o:["Every province gets exactly 10 seats.","Based on Representation by Population (rep by pop).","Based on geographical land area.","Equal seats for English and French speakers."],a:1,
- h:"Think back to what George Brown and Canada West wanted (Questions 2 and 3).",
- e:"The House of Commons applies rep by pop, giving larger provinces proportional seats.",ref:"Textbook Ch. 7, p. 162"},
-{q:"What was the intended purpose of the appointed Senate (Upper House)?",
- o:["To pass tax bills before the House of Commons.","To provide regional representation and protect the interests of smaller provinces and minorities.","To command the military during wartime.","To manage provincial highways."],a:1,
- h:"If the House of Commons gives big provinces more seats, what could balance that out?",
- e:"\"Senate seats were based on region. The senate would give the less populated provinces a larger voice in government. It would also protect the rights of minorities.\"",ref:"Textbook Ch. 7, p. 162"},
-{q:"Under Section 91 of the BNA Act, which responsibilities were assigned to the Federal Government?",
- o:["Defence, currency, trade/commerce, and national post office","Local schools, municipal hospitals, and city roads","Quebec civil law and local property rights","Sole control over provincial timber licenses"],a:0,
- h:"The federal government handles matters that affect the whole country, not just one town or province.",
- e:"Section 91 listed federal powers of national scope including defence, trade, currency, and criminal law.",ref:"Textbook Ch. 7, p. 163"},
-{q:"Under Section 92 and Section 93 of the BNA Act, which key areas were placed under Provincial jurisdiction?",
- o:["Defence, foreign affairs, and national railways","Education, healthcare/hospitals, local civil law, and property rights","Printing national currency and managing border customs","Ocean fisheries and national defence treaties"],a:1,
- h:"Provinces handle local matters that affect people's daily lives close to home.",
- e:"Sections 92 and 93 reserved local affairs, civil law, education, and municipal institutions for provincial control.",ref:"Textbook Ch. 7, pp. 160, 163"},
-{q:"What famous phrase in the BNA Act defines the overall purpose and power of Canada's federal government?",
- o:["'Life, Liberty, and the Pursuit of Happiness'","'Peace, Order, and Good Government' (POGG)","'Liberty, Equality, Fraternity'","'E Pluribus Unum'"],a:1,
- h:"Two of these come from the United States and one from France.",
- e:"The BNA Act gives the federal government the power to make laws for the \"peace, order, and good government\" of Canada. This phrase has become part of the Canadian identity.",ref:"Textbook Ch. 7, p. 163"},
-{q:"What are 'residual powers' in the Canadian Constitution?",
- o:["Powers granted exclusively to the British Crown.","Unforeseen future matters not mentioned in 1867 (such as aviation or internet) that default to the federal government.","Taxes left over at the end of the fiscal year.","Emergency powers given only to municipal mayors."],a:1,
- h:"'Residual' means what is left over. What about topics nobody listed in 1867?",
- e:"Residual powers ensure any new or unallocated subject automatically falls under federal jurisdiction.",ref:"Textbook Ch. 7, p. 163"},
-{q:"Why did Canadian founders favour a stronger central government compared to the United States?",
- o:["They wanted to copy the American system exactly.","They had witnessed the American Civil War and believed weak central government caused state conflict.","Britain forced Canada to adopt an absolute monarchical rule.","The Maritime colonies refused to have provincial parliaments."],a:1,
- h:"What was happening in the United States while the Fathers of Confederation were meeting (Question 8)?",
- e:"The founders believed strong states' rights led to the US Civil War, so they created a strong central government to maintain stability.",ref:"Textbook Ch. 7, p. 163"},
-{q:"Under Section 91(24) of the BNA Act, how were First Nations peoples and their lands treated by the new government?",
- o:["First Nations leaders were given equal voting seats in the Senate.","Responsibility for 'Indians and Lands reserved for the Indians' was assigned solely to the federal government without consultation.","First Nations were granted immediate full provincial status.","Each First Nation became an independent country within North America."],a:1,
- h:"Section 91 lists federal powers. Were First Nations invited to the Confederation conferences?",
- e:"First Nations were not consulted about Confederation. Section 91(24) of the BNA Act gives the federal government responsibility over \"Indians, and Lands reserved for the Indians.\" Later, the Indian Act (1876) defined the status of First Nations peoples.",ref:"Textbook Ch. 7, pp. 164, 166"},
-{q:"Which groups were excluded from participating or voting in the political discussions leading to Confederation?",
- o:["First Nations peoples, Métis, Inuit, women, and non-property owners","British military officers","Wealthy merchant landowners in Montreal","Members of the Legislative Council"],a:0,
- h:"Picture the photos of the Fathers of Confederation. Who is missing from them?",
- e:"In 1867, only citizens over 21 who owned or rented a lot of property could vote. Married women, First Nations, Métis, and Inuit could not vote, and in all only 11 per cent of the population had the vote.",ref:"Textbook Ch. 7, p. 164"},
-{q:"What role did the Governor General play in Canada's government structure immediately after 1867?",
- o:["Elected by popular vote every four years.","Appointed by the British Crown to represent the monarch and act on advice of the Canadian Cabinet.","Head of the Supreme Court of Great Britain.","Premier of Ontario."],a:1,
- h:"Look back at Question 26: who does the Governor General stand in for?",
- e:"The Governor General represented the Sovereign in Canada.",ref:"Textbook Ch. 7, p. 162"},
-{q:"How did Section 93 of the BNA Act protect the rights of religious minorities in education?",
- o:["It abolished all separate schools.","It guaranteed provincial protection for Protestant minority schools in Quebec and Catholic minority schools in Ontario.","It required all students to attend non-religious private schools.","It handed education control over to Great Britain."],a:1,
- h:"Quebec was mostly Catholic and Ontario was mostly Protestant. Who would be the minority in each?",
- e:"Section 93 protected existing denominational school rights for Catholic and Protestant minorities.",ref:"Textbook Ch. 7, p. 160; Ch. 10, pp. 234–235"},
-{q:"What was the name given to the coalition government formed in 1848 between Robert Baldwin and Louis-Hippolyte La Fontaine that paved the way for responsible government?",
- o:["The Great Ministry","The Quebec Accord","The Reform League","The BNA Alliance"],a:0,
- h:"The BNA did not exist until 1867, so one option can be ruled out right away.",
- e:"Baldwin and La Fontaine were partners in a \"Great Ministry\" from 1848 to 1851. They fought for responsible government and began Canada's first public school system.",ref:"Textbook Ch. 7, p. 150"},
-{q:"In summary, how did Confederation transform British North America in 1867?",
- o:["It completely severed all ties with the British Empire.","It united three colonies (which became four provinces) into a self-governing Dominion, balancing federal unity with provincial diversity.","It created a unified military that invaded the United States.","It made Montreal the permanent capital of the British Empire."],a:1,
- h:"Canada still had a British monarch as Head of State after 1867 (Question 26).",
- e:"Confederation united the colonies into the Dominion of Canada with a federal system: a central government for matters affecting the whole country and provincial governments for local matters. Canada remained part of the British Empire, and Britain still controlled defence and foreign affairs.",ref:"Textbook Ch. 7, pp. 162–163"}
-  ]
+ {
+  "q": "In the 1850s, the population of Canada West grew larger than that of Canada East. Why did this lead to political deadlock in the Assembly?",
+  "o": [
+   "Canada East wanted more seats because it now had the larger population of the two.",
+   "Britain cancelled the Act of Union, so the colony was left without any working Assembly.",
+   "Canada West wanted to join the United States, while Canada East wanted to stay British.",
+   "Canada West wanted more seats, but Canada East objected because Canadiens would be outnumbered."
+  ],
+  "a": 3,
+  "h": "Under the Act of Union, both halves had the same number of seats. Who would want that to change once one half grew bigger?",
+  "e": "The Act of Union gave Canada East and Canada West the same number of seats. When Canada West's population grew larger, its politicians demanded rep by pop. Canadien politicians objected because they would be outnumbered, and \"the fight over rep by pop led to deadlocks in the Assembly.\"",
+  "ref": "Textbook Ch. 7, pp. 150–151",
+  "th": true
+ },
+ {
+  "q": "What did 'representation by population' (rep by pop) mean?",
+  "o": [
+   "Each region gets the same number of seats, no matter its population.",
+   "Only people who own property may elect members to the Assembly.",
+   "Seats are split equally between English and French members.",
+   "Elected members each represent about the same number of people."
+  ],
+  "a": 3,
+  "h": "Read the name closely: representation based on what?",
+  "e": "Under rep by pop, \"elected members all represent the same number of people. The larger the population, the more representatives.\" Equal seats for each region was the Act of Union system that Canada West wanted to replace.",
+  "ref": "Textbook Ch. 7, p. 151",
+  "th": false
+ },
+ {
+  "q": "Who led the Clear Grits, a group of radical Reformers in Canada West who were impatient with the demands of the Canadiens?",
+  "o": [
+   "John A. Macdonald",
+   "George-Étienne Cartier",
+   "Antoine-Aimé Dorion",
+   "George Brown"
+  ],
+  "a": 3,
+  "h": "In 1864, this leader convinced his party to join a coalition and proposed federalism.",
+  "e": "The Clear Grit Party was a group of radical Reformers who wanted a more democratic government. \"Their leader was George Brown.\" Macdonald led the Liberal-Conservatives, Cartier led Les Bleus, and Antoine-Aimé Dorion led Les Rouges.",
+  "ref": "Textbook Ch. 7, p. 150",
+  "th": false
+ },
+ {
+  "q": "Which party in Canada East was led by George-Étienne Cartier and favoured co-operating with the English?",
+  "o": [
+   "Les Bleus",
+   "Les Rouges",
+   "The Clear Grits",
+   "The Liberal-Conservatives"
+  ],
+  "a": 0,
+  "h": "The two Canadien parties were named after colours. Which one worked with Macdonald?",
+  "e": "Les Bleus (the Blues) were \"conservative, business-oriented Canadiens. They were in favour of co-operating with the English. Their leader was George-Étienne Cartier.\" Les Rouges wanted independence for Québec, and the Clear Grits and Liberal-Conservatives were English-Canadian parties.",
+  "ref": "Textbook Ch. 7, p. 150",
+  "th": false
+ },
+ {
+  "q": "By 1846, Britain had begun free trade with all countries. What was the main effect of this change on the colonies?",
+  "o": [
+   "They lost their assured market in Britain and had to find new buyers.",
+   "Their goods became cheaper in Britain than goods from other countries.",
+   "Britain began paying for the colonies' governments and their defence.",
+   "They were no longer allowed to sell their goods to the United States."
+  ],
+  "a": 0,
+  "h": "Under the mercantile system, Britain taxed imports from other countries but not from its colonies. What happens when Britain stops taxing everyone else's goods?",
+  "e": "Under the mercantile system, colonial goods were cheap and popular in Britain. With free trade, \"the colonies no longer had an assured market for their goods.\" Britain wanted the colonies to pay for their own governments and defence, and urged them to look for other markets.",
+  "ref": "Textbook Ch. 7, p. 151",
+  "th": true
+ },
+ {
+  "q": "In 1854, the colonies signed a trade agreement with the United States that created reciprocity. What happened to this deal?",
+  "o": [
+   "Britain cancelled it after about 10 years.",
+   "The colonies cancelled it after about 10 years.",
+   "The United States cancelled it after about 10 years.",
+   "It ended when the colonies joined together in Confederation in 1867."
+  ],
+  "a": 2,
+  "h": "The textbook says one side felt it was not getting enough out of the deal.",
+  "e": "Reciprocity let fish, timber, and grain cross the border tax-free, and it was good for the colonies. But the Americans decided they weren't getting enough out of the deal: \"After just 10 years, the United States cancelled the deal.\" This led to an economic crisis in the colonies.",
+  "ref": "Textbook Ch. 7, p. 152",
+  "th": false
+ },
+ {
+  "q": "Why did many people believe a railway linking Canada West with Halifax depended on Confederation?",
+  "o": [
+   "It cost so much that it could only go ahead if the colonies shared the cost.",
+   "Britain had promised to pay for the whole railway once the colonies united.",
+   "The United States had offered to build it if the colonies united.",
+   "The Hudson's Bay Company would only allow it to cross its land after union."
+  ],
+  "a": 0,
+  "h": "Think about money. Who would pay for such a huge project?",
+  "e": "The railway \"would cost a lot of money. It could only go ahead if the colonies were united. Then all the colonies could share the cost.\" It would also be good for business and could move troops if the Americans invaded.",
+  "ref": "Textbook Ch. 7, pp. 153, 156",
+  "th": false
+ },
+ {
+  "q": "Which pair of events in the 1860s made colonists worry about defending British North America?",
+  "o": [
+   "The War of 1812 and the Rebellions of 1837–38",
+   "The Seven Years' War and the fall of New France",
+   "The American Civil War and the Fenian raids",
+   "The Red River Resistance and the Klondike Gold Rush"
+  ],
+  "a": 2,
+  "h": "Look for two events that took place in or near the 1860s and came from south of the border.",
+  "e": "The American Civil War began in 1861, and colonists feared the United States might turn its army north. In 1866, the Fenians, a group of Irish Americans, attacked border towns. The other events happened much earlier or later (for example, the Klondike Gold Rush began in 1897).",
+  "ref": "Textbook Ch. 7, p. 153",
+  "th": false
+ },
+ {
+  "q": "In 1864, delegates from New Brunswick, Nova Scotia, and Prince Edward Island planned to meet in Charlottetown. What did they first want to discuss?",
+  "o": [
+   "A union of all British North America",
+   "A union of their three colonies",
+   "The final wording of the BNA Act",
+   "Where to build a new capital city"
+  ],
+  "a": 1,
+  "h": "The plan to unite all the colonies came from the Canadians, who were not part of the original meeting.",
+  "e": "The Maritime delegates \"wanted to talk about a union of their three colonies.\" The plan to unite all the colonies was presented by the politicians from Canada, and the BNA Act was drawn up later in London.",
+  "ref": "Textbook Ch. 7, p. 158",
+  "th": false
+ },
+ {
+  "q": "How did politicians from the Province of Canada become part of the Charlottetown Conference?",
+  "o": [
+   "Britain ordered the Maritime colonies to let them lead the meeting.",
+   "They arrived without an invitation and demanded a vote on union.",
+   "The Maritime premiers invited them to help plan a Maritime union.",
+   "They asked to be invited and presented a plan for a wider union."
+  ],
+  "a": 3,
+  "h": "The Canadians were not on the original guest list, but they did not force their way in.",
+  "e": "\"The politicians in Canada asked to be invited. The Maritime leaders listened to their plan to unite all four colonies. They agreed to meet again.\"",
+  "ref": "Textbook Ch. 7, p. 158",
+  "th": false
+ },
+ {
+  "q": "At the Québec Conference in 1864, what did the delegates draft as the foundation for a new country?",
+  "o": [
+   "The Ninety-Two Resolutions",
+   "The Act of Union",
+   "The British North America Act",
+   "The Seventy-Two Resolutions"
+  ],
+  "a": 3,
+  "h": "The Ninety-Two Resolutions belonged to Papineau and the Patriotes in 1834.",
+  "e": "After two weeks of arguing and compromise at Québec City, \"the delegates had drafted the Seventy-Two Resolutions. These were the foundations for a new country.\" The BNA Act was drawn up later at the London Conference, and the Ninety-Two Resolutions came from the Patriotes in 1834.",
+  "ref": "Textbook Ch. 7, pp. 159, 161; Ch. 6, p. 141",
+  "th": false
+ },
+ {
+  "q": "George Brown proposed federalism. Why would this plan appeal to people in the Maritime colonies?",
+  "o": [
+   "The Maritimes would have more seats than Canada in the new Assembly.",
+   "Britain would keep paying for the Maritimes' defence and trade.",
+   "Each colony would keep its own government to run its local affairs.",
+   "The capital of the new country would be placed in Halifax."
+  ],
+  "a": 2,
+  "h": "The Maritimes worried that central Canada would control their affairs. Which choice answers that worry?",
+  "e": "Under federalism, \"each colony would keep its own government to run its own affairs. A central government would look after matters that affected the whole union.\" This \"would reduce concern in the Maritimes that central Canada would control their affairs.\"",
+  "ref": "Textbook Ch. 7, p. 158",
+  "th": true
+ },
+ {
+  "q": "Joseph Howe of Nova Scotia wrote in 1865: \"If they [the Canadians] are in trouble, let them get out of it; but don't let them involve us in distractions with which we have nothing to do.\" What was Howe's main point?",
+  "o": [
+   "Canada's political problems were not Nova Scotia's to solve.",
+   "Nova Scotia should join the union quickly so it could help the Canadians.",
+   "Nova Scotia should support union to get a railway built.",
+   "The Province of Canada should split into two new colonies."
+  ],
+  "a": 0,
+  "h": "Who does Howe say is in trouble, and does he want Nova Scotia involved?",
+  "e": "Howe opposed union. He believed Confederation \"favoured Canada at the expense of the Maritime colonies\" and called it the \"Botheration Scheme,\" a lot of trouble with little benefit to Maritimers. He also argued Nova Scotians would pay higher taxes that would be spent elsewhere.",
+  "ref": "Textbook Ch. 7, pp. 157, 159–160",
+  "th": true
+ },
+ {
+  "q": "New Brunswick's Assembly first voted against union. What helped change its mind?",
+  "o": [
+   "A promise to make Saint John the new capital",
+   "Pressure from Britain and the promise of a railway",
+   "A promise of more Senate seats than Québec",
+   "The decision of PEI to join Confederation first"
+  ],
+  "a": 1,
+  "h": "One reason came from overseas. The other was a transportation project.",
+  "e": "\"At first, the Assembly voted against the idea. Then Britain put pressure on New Brunswick to accept the deal. The promise of a railway appealed to many colonists, too.\" PEI did not join until 1873, and Ottawa was already the capital.",
+  "ref": "Textbook Ch. 7, p. 160",
+  "th": false
+ },
+ {
+  "q": "Cornelius Howatt of Prince Edward Island said in 1866: \"We would be such a small portion of the Confederacy, our voice would not be heard in it.\" Based on this quote, why did many Islanders oppose Confederation?",
+  "o": [
+   "They feared their small colony would have little say.",
+   "They feared losing their trade with the United States.",
+   "They wanted Charlottetown to become the new capital.",
+   "They believed union would cost them their railway."
+  ],
+  "a": 0,
+  "h": "Focus on the words \"small portion\" and \"our voice would not be heard.\"",
+  "e": "People thought Prince Edward Island \"was too small. It would be swamped by the other colonies.\" PEI did not join Confederation until 1873, after Canada offered to take over its railway and buy back land from absentee landowners.",
+  "ref": "Textbook Ch. 7, pp. 159–160; Ch. 10, pp. 227–229",
+  "th": true
+ },
+ {
+  "q": "Newfoundland had close ties to Britain and little in common with the other colonies. When did it finally join Canada?",
+  "o": [
+   "1949",
+   "1867",
+   "1871",
+   "1873"
+  ],
+  "a": 0,
+  "h": "Newfoundland and Labrador became the tenth province, long after the others.",
+  "e": "Newfoundland felt it would have little influence in a distant government and was more interested in its ties to Britain. It \"stayed out of Confederation until 1949,\" becoming the tenth province on 31 March 1949. (1873 is when PEI joined.)",
+  "ref": "Textbook Ch. 7, p. 160; Ch. 10, p. 239",
+  "th": false
+ },
+ {
+  "q": "In 1864, what did George Brown do to help break the political deadlock?",
+  "o": [
+   "He resigned and asked Britain to govern Canada directly.",
+   "He led the Clear Grits into a coalition with their rivals.",
+   "He divided the Province of Canada into two colonies.",
+   "He joined Les Rouges to work for Québec independence."
+  ],
+  "a": 1,
+  "h": "Brown agreed to vote alongside the parties he used to oppose.",
+  "e": "\"George Brown, leader of the Clear Grits, convinced his party to join a coalition. They would vote with the Liberal-Conservatives and Les Bleus.\" In return, they supported his plan to unite all the colonies.",
+  "ref": "Textbook Ch. 7, p. 158",
+  "th": false
+ },
+ {
+  "q": "Union was George Brown's idea, but who led the campaign for Confederation at every step and became Canada's first prime minister?",
+  "o": [
+   "John A. Macdonald",
+   "George Brown",
+   "Charles Tupper",
+   "George-Étienne Cartier"
+  ],
+  "a": 0,
+  "h": "This leader of the Liberal-Conservatives was called the unofficial \"architect\" of Confederation.",
+  "e": "\"Union was George Brown's idea. Macdonald, however, was the one who led the campaign at every step.\" He was the unofficial \"architect\" of Confederation, wrote much of the BNA Act, and became Canada's first prime minister.",
+  "ref": "Textbook Ch. 7, pp. 161–162",
+  "th": false
+ },
+ {
+  "q": "Many Canadiens worried that English Canadians would control the new country. How did George-Étienne Cartier argue that Confederation could protect them?",
+  "o": [
+   "French would be the only language used in the new Parliament.",
+   "Québec would get more House of Commons seats than Ontario.",
+   "Canadiens would be allowed to leave the union at any time.",
+   "Their own province would control matters such as education."
+  ],
+  "a": 3,
+  "h": "Under federalism, which level of government handles matters close to home?",
+  "e": "Cartier \"believed that federalism would give the Canadiens control over matters that affected them directly.\" Section 93 of the BNA Act gave the provinces control over education. Seats in the House of Commons were based on rep by pop, not on giving Québec extra seats.",
+  "ref": "Textbook Ch. 7, pp. 160, 162",
+  "th": true
+ },
+ {
+  "q": "Jean-Baptiste-Éric Dorion of Canada East said he opposed Confederation because conflicts between the local and general governments \"will always be resolved in favour of the general government.\" What did he fear?",
+  "o": [
+   "The provinces would become too strong for the central government.",
+   "Britain would take back control of Canada East's government.",
+   "The central government would hold more power than the provinces.",
+   "The Maritime colonies would control the new Parliament."
+  ],
+  "a": 2,
+  "h": "\"General government\" means the central government. Who does Dorion think would win every conflict?",
+  "e": "Dorion foresaw \"innumerable difficulties with the joint powers given to the local and general governments\" and believed the general (central) government would always win. Many Canadiens worried that the new country would be controlled by English Canadians.",
+  "ref": "Textbook Ch. 7, pp. 159–160",
+  "th": true
+ },
+ {
+  "q": "Who was premier of Nova Scotia and supported Confederation even though Joseph Howe opposed it?",
+  "o": [
+   "Charles Tupper",
+   "Leonard Tilley",
+   "J.H. Gray",
+   "George Brown"
+  ],
+  "a": 0,
+  "h": "George Brown was from Canada West, so think about the three Maritime premiers in the 1864 sketch of the founders.",
+  "e": "The founders of Confederation included \"Charles Tupper, premier of Nova Scotia.\" Despite Howe's opposition, \"in the end, Nova Scotia voted to join union.\"",
+  "ref": "Textbook Ch. 7, pp. 158, 160",
+  "th": false
+ },
+ {
+  "q": "In 1864, who was premier of New Brunswick and one of the founders of Confederation?",
+  "o": [
+   "Charles Tupper",
+   "J.H. Gray",
+   "Joseph Howe",
+   "Leonard Tilley"
+  ],
+  "a": 3,
+  "h": "Think about the colony whose most important city was Saint John.",
+  "e": "The founders who attended the 1864 conferences included \"Leonard Tilley, premier of New Brunswick.\" Tupper was premier of Nova Scotia, J.H. Gray was premier of PEI, and Joseph Howe opposed union.",
+  "ref": "Textbook Ch. 7, p. 158",
+  "th": false
+ },
+ {
+  "q": "Where did John A. Macdonald head the 1866 meeting that drew up the British North America Act?",
+  "o": [
+   "Charlottetown",
+   "London, England",
+   "Québec City",
+   "Halifax, Nova Scotia"
+  ],
+  "a": 1,
+  "h": "The BNA Act was passed by the British Parliament.",
+  "e": "\"At the London Conference in 1866, he headed the meeting that drew up the British North America Act.\" Charlottetown and Québec City hosted the 1864 conferences.",
+  "ref": "Textbook Ch. 7, p. 161",
+  "th": false
+ },
+ {
+  "q": "On what date was the Dominion of Canada created?",
+  "o": [
+   "31 December 1857",
+   "1 July 1873",
+   "1 July 1867",
+   "31 March 1949"
+  ],
+  "a": 2,
+  "h": "Canadians celebrate this date every summer as Canada Day.",
+  "e": "\"July 1, 1867, saw the creation of a new country: the Dominion of Canada.\" The other dates are when Ottawa became the capital (1857), PEI joined (1873), and Newfoundland and Labrador joined (1949).",
+  "ref": "Textbook Ch. 7, pp. 154, 162; Ch. 10, pp. 229, 239",
+  "th": false
+ },
+ {
+  "q": "Which four provinces formed the Dominion of Canada in 1867?",
+  "o": [
+   "Ontario, Québec, Nova Scotia, and New Brunswick",
+   "Ontario, Québec, Nova Scotia, and Prince Edward Island",
+   "Ontario, Québec, New Brunswick, and Newfoundland",
+   "Nova Scotia, New Brunswick, PEI, and Newfoundland"
+  ],
+  "a": 0,
+  "h": "Two Atlantic colonies stayed out in 1867.",
+  "e": "\"In that year, Nova Scotia, New Brunswick, Canada East, and Canada West formed a union.\" Canada East and Canada West became Québec and Ontario. PEI and Newfoundland stayed out.",
+  "ref": "Textbook Ch. 7, pp. 160, 162",
+  "th": false
+ },
+ {
+  "q": "Under the BNA Act, who was Canada's head of state?",
+  "o": [
+   "The prime minister",
+   "The Governor General",
+   "The Speaker of the Senate",
+   "The British monarch"
+  ],
+  "a": 3,
+  "h": "The Governor General stood in for this person in Canada.",
+  "e": "\"The British monarch was Canada's head of state. A Governor General would represent the monarch in Canada.\"",
+  "ref": "Textbook Ch. 7, p. 162",
+  "th": false
+ },
+ {
+  "q": "Which describes Canada's Parliament as created in 1867?",
+  "o": [
+   "An elected Senate and an appointed House of Commons",
+   "An elected House of Commons and an elected Senate",
+   "An elected House of Commons and an appointed Senate",
+   "An appointed House of Commons and an appointed Senate"
+  ],
+  "a": 2,
+  "h": "Only one of the two houses was chosen by voters.",
+  "e": "\"Parliament was divided into two parts. There was an elected House of Commons and an appointed Senate.\" The House of Commons held the real power.",
+  "ref": "Textbook Ch. 7, p. 162",
+  "th": false
+ },
+ {
+  "q": "Seats in the House of Commons were based on rep by pop. Which provinces had more representation as a result?",
+  "o": [
+   "Nova Scotia and New Brunswick",
+   "Ontario and Québec",
+   "New Brunswick and Québec",
+   "Ontario and Nova Scotia"
+  ],
+  "a": 1,
+  "h": "Under rep by pop, the provinces with the most people get the most seats.",
+  "e": "\"The number of seats a province had in the House of Commons was based on rep by pop. Therefore, Ontario and Québec had more representation.\"",
+  "ref": "Textbook Ch. 7, p. 162",
+  "th": false
+ },
+ {
+  "q": "A senator from Nova Scotia speaks up because a new law would mostly help Ontario and Québec. Which purpose of the Senate is this senator carrying out?",
+  "o": [
+   "Making sure seats match each province's population",
+   "Representing the British monarch in Canada",
+   "Holding the real power to run the government",
+   "Giving less populated provinces a larger voice"
+  ],
+  "a": 3,
+  "h": "Think about how the Senate was meant to balance the House of Commons.",
+  "e": "\"Senate seats were based on region. The senate would give the less populated provinces a larger voice in government. It would also protect the rights of minorities.\" Seats by population describes the House of Commons, which \"held the real power.\"",
+  "ref": "Textbook Ch. 7, p. 162",
+  "th": true
+ },
+ {
+  "q": "Which list contains ONLY federal powers under the BNA Act?",
+  "o": [
+   "Education, hospitals, and highways",
+   "Defence, education, banking, and the post office",
+   "Defence, the post office, and currency",
+   "Criminal law, hospitals, and currency"
+  ],
+  "a": 2,
+  "h": "Check each item. Matters that affect the whole country are federal; local matters are provincial.",
+  "e": "The BNA Act listed defence, the post office, currency and coinage, banking, and criminal law as federal powers. Education, hospitals, and highways were provincial powers.",
+  "ref": "Textbook Ch. 7, p. 163",
+  "th": false
+ },
+ {
+  "q": "Which pair of powers did the BNA Act give to the provinces?",
+  "o": [
+   "Banking and currency",
+   "Defence and fisheries",
+   "Education and hospitals",
+   "Criminal law and the post office"
+  ],
+  "a": 2,
+  "h": "Provinces handled local and regional matters close to people's daily lives.",
+  "e": "Provincial powers included \"property and civil rights, education, local works, highways, hospitals, municipalities\" and courts. Banking, currency, defence, fisheries, criminal law, and the post office were federal powers.",
+  "ref": "Textbook Ch. 7, p. 163",
+  "th": false
+ },
+ {
+  "q": "According to the BNA Act, the federal government can make laws for what purpose?",
+  "o": [
+   "Life, liberty, and the pursuit of happiness",
+   "Peace, order, and good government",
+   "Liberty, equality, and fraternity",
+   "Responsible and representative government"
+  ],
+  "a": 1,
+  "h": "This phrase has become part of the Canadian identity. The first two choices are mottos from other countries.",
+  "e": "\"The BNA Act states that the federal government has the power to make laws for the 'peace, order, and good government' of Canada. This phrase has become part of the Canadian identity.\"",
+  "ref": "Textbook Ch. 7, p. 163",
+  "th": false
+ },
+ {
+  "q": "In 1867, nobody knew about airplanes or the Internet. Under the BNA Act, which government has power over new things like these?",
+  "o": [
+   "The provinces, because they control all local works",
+   "Both levels, because they share powers such as immigration",
+   "The federal government, which holds the residual powers",
+   "The British government, since it ran foreign affairs"
+  ],
+  "a": 2,
+  "h": "Powers over things no one knew about in 1867 have a special name in the chart of powers.",
+  "e": "Residual powers \"are the powers over things that no one knew about in 1867. They include things such as telephones, airplanes, and the Internet.\" The BNA Act gave residual powers to the federal government. Only agriculture and immigration were shared.",
+  "ref": "Textbook Ch. 7, p. 163",
+  "th": true
+ },
+ {
+  "q": "Why did the founders of Confederation choose a strong central government?",
+  "o": [
+   "They wanted Canada to copy the American system of strong states.",
+   "The US Civil War had been partly a fight over state power.",
+   "The Maritime colonies asked for a government with all the power.",
+   "Britain required every colony to have only one government."
+  ],
+  "a": 1,
+  "h": "What had the founders just watched happen in the United States?",
+  "e": "\"The founders, however, had just witnessed the Civil War in the United States. In part, this war had been a fight about who should have more power: the states or the central government... They chose to have a strong central government.\"",
+  "ref": "Textbook Ch. 7, p. 163",
+  "th": true
+ },
+ {
+  "q": "First Nations were not consulted about Confederation. What did Section 91(24) of the BNA Act do?",
+  "o": [
+   "Made First Nations a responsibility of each province",
+   "Made First Nations and reserve lands a federal responsibility",
+   "Gave First Nations their own seats in the new Senate",
+   "Created the Indian Act to define First Nations status"
+  ],
+  "a": 1,
+  "h": "Section 91 lists powers given to one level of government.",
+  "e": "\"Section 91(24) of the BNA Act gives the federal government responsibility over 'Indians, and Lands reserved for the Indians.'\" The Indian Act came later, in 1876.",
+  "ref": "Textbook Ch. 7, p. 164; timeline, p. 166",
+  "th": false
+ },
+ {
+  "q": "In 1867, only about 11 per cent of the population could vote. Who had the vote?",
+  "o": [
+   "Citizens over 21 who owned or rented a lot of property",
+   "All Canadian citizens who were 18 years of age or older",
+   "All men and women over 21, whether or not they owned property",
+   "Only members of the Assembly and their family members"
+  ],
+  "a": 0,
+  "h": "Voting depended on age and on something people owned or rented.",
+  "e": "\"Only citizens over the age of 21 who owned property or rented large amounts of property had the vote.\" Married women, First Nations, Métis, and Inuit could not vote. Today, all citizens aged 18 and older can vote.",
+  "ref": "Textbook Ch. 7, p. 164",
+  "th": false
+ },
+ {
+  "q": "What was the role of the Governor General after 1867?",
+  "o": [
+   "To serve as Canada's head of state",
+   "To lead the Cabinet and run the government",
+   "To decide how Senate seats were divided",
+   "To represent the monarch in Canada"
+  ],
+  "a": 3,
+  "h": "The Governor General stood in for someone who lived in Britain.",
+  "e": "\"The British monarch was Canada's head of state. A Governor General would represent the monarch in Canada.\" Since 1935, the Governor General has been chosen by the prime minister.",
+  "ref": "Textbook Ch. 7, p. 162",
+  "th": false
+ },
+ {
+  "q": "Section 93 of the BNA Act gave the provinces control over education. What was one result outside Québec?",
+  "o": [
+   "Every province had to offer schooling in French.",
+   "The federal government ran French schools instead.",
+   "Many Francophones could not get schooling in French.",
+   "Separate Catholic schools were banned in Ontario and Québec."
+  ],
+  "a": 2,
+  "h": "The textbook says provinces besides Québec used this power to deny something.",
+  "e": "\"Besides Québec, the provinces used this power to deny the right to instruction in French. As a result, many Francophones did not receive their schooling in French until recently.\" Separate schools for minorities in Ontario and Québec were protected (see the Alberta Act case study).",
+  "ref": "Textbook Ch. 7, pp. 160, 164; Ch. 10, pp. 234–235",
+  "th": true
+ },
+ {
+  "q": "Robert Baldwin and Louis-Hippolyte La Fontaine were partners in a government from 1848 to 1851. What was it called?",
+  "o": [
+   "The Family Compact",
+   "The Great Ministry",
+   "The Château Clique",
+   "The Clear Grits"
+  ],
+  "a": 1,
+  "h": "Its name shows how much this partnership achieved.",
+  "e": "\"Baldwin and La Fontaine were partners in a Great Ministry from 1848 to 1851.\" They fought for responsible government and began Canada's first public school system.",
+  "ref": "Textbook Ch. 7, pp. 150–151",
+  "th": false
+ },
+ {
+  "q": "Which statement best sums up what Confederation achieved in 1867?",
+  "o": [
+   "It made Canada a country fully independent from Britain.",
+   "It created a federal country that stayed in the British Empire.",
+   "It united every British colony in North America at once.",
+   "It gave every adult citizen in the new country the vote."
+  ],
+  "a": 1,
+  "h": "Check each statement against what you know about defence, PEI and Newfoundland, and voting in 1867.",
+  "e": "The BNA Act made the Dominion of Canada a federal country with central and provincial governments. But \"Britain still controlled defence and foreign affairs. Canada remained part of the British Empire.\" PEI and Newfoundland stayed out, and only 11 per cent of people could vote.",
+  "ref": "Textbook Ch. 7, pp. 160, 162–164",
+  "th": true
+ }
+]
 };

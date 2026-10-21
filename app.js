@@ -96,6 +96,7 @@
       var li = el("li");
       li.appendChild(el("div",null,item.q));
       var ans = el("div"); ans.appendChild(el("span","k-ans", L[item.a]+") "+item.o[item.a]));
+      if(item.th) ans.appendChild(el("span","k-think","Thinking"));
       li.appendChild(ans); li.appendChild(el("div",null,item.e));
       if(item.ref) li.appendChild(el("div","ref",item.ref));
       kl.appendChild(li);
