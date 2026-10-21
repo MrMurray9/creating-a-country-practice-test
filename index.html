@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 2 Practice Test: Creating a Country (1850s–1867) | Aurora Academic Charter School</title>
+<meta name="description" content="Interactive Social Studies 7 practice quiz on Confederation: political deadlock, key leaders, the Charlottetown and Quebec Conferences, and the BNA Act.">
+<link rel="icon" href="images/aurora-logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to quiz</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <img src="images/aurora-logo-white.png" alt="Aurora Academic Charter School logo" class="logo" width="72" height="49">
+    <div class="school">
+      <span class="school-name">Aurora Academic Charter School</span>
+      <span class="school-sub">Social Studies 7 · Edmonton, Alberta</span>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="intro">
+    <h1>Unit 2 Practice Test: Creating a Country (1850s–1867)</h1>
+    <p class="subtitle">Chapter 7 &amp; Unit 2 Slides (2.1–2.5) · 40 multiple-choice questions</p>
+    <p class="topics">Covers political deadlock, key leaders, trade changes, Maritime colony perspectives, the Charlottetown and Quebec Conferences, and the BNA Act.</p>
+  </section>
+
+  <!-- Start screen -->
+  <section id="start" class="card start-card">
+    <h2>How this practice test works</h2>
+    <ul>
+      <li>One question at a time. Choose the best answer and you'll see right away whether it's correct, with an explanation.</li>
+      <li>Stuck? Use <strong>Hint</strong> for a nudge that won't give the answer away.</li>
+      <li>Use <strong>Previous</strong> and <strong>Next</strong> to move around. Your score appears at the end.</li>
+    </ul>
+    <button type="button" id="startBtn" class="btn btn-primary btn-lg">Start the practice test</button>
+  </section>
+
+  <!-- Quiz card -->
+  <section id="quiz" class="card quiz-card" hidden aria-labelledby="qText">
+    <div class="progress-row">
+      <span id="progressLabel" class="progress-label">Question 1 of 40</span>
+      <span id="scoreLabel" class="score-label">Score: 0</span>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="40" aria-valuenow="1" id="progressBar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <h2 id="qText" class="q-text" tabindex="-1"></h2>
+    <div id="options" class="options" role="group" aria-labelledby="qText"></div>
+    <div id="hintBox" class="hint" hidden></div>
+    <div id="feedback" class="feedback" hidden aria-live="polite"></div>
+    <div class="nav-row">
+      <button type="button" id="prevBtn" class="btn btn-ghost">← Previous</button>
+      <button type="button" id="hintBtn" class="btn btn-ghost" aria-expanded="false">💡 Hint</button>
+      <button type="button" id="nextBtn" class="btn btn-primary">Next →</button>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section id="results" class="card results-card" hidden aria-labelledby="resultsHeading">
+    <h2 id="resultsHeading" tabindex="-1">Your results</h2>
+    <div class="score-big"><span id="finalScore">0 / 40</span><span id="finalPct" class="pct">0%</span></div>
+    <p id="finalMsg" class="final-msg"></p>
+    <h3>Question review</h3>
+    <ol id="reviewList" class="review-list"></ol>
+    <div class="nav-row">
+      <button type="button" id="retakeBtn" class="btn btn-primary">↻ Retake quiz</button>
+    </div>
+  </section>
+
+  <!-- Print-only question booklet (no answers) -->
+  <section id="printQuestions" class="print-booklet" aria-hidden="true">
+    <p>Name: ____________________ &nbsp; Date: __________ &nbsp; Class: ______</p>
+    <p>Instructions: Read each question carefully and select the best answer.</p>
+    <ol id="bookletList"></ol>
+  </section>
+
+  <!-- Answer key -->
+  <section class="key-section">
+    <button type="button" id="keyToggle" class="btn btn-outline" aria-expanded="false" aria-controls="answerKey">Show full answer key</button>
+    <button type="button" id="printBtn" class="btn btn-outline" hidden>🖨 Print answer key</button>
+    <div id="answerKey" class="answer-key" hidden>
+      <h2>Answer Key &amp; Explanations</h2>
+      <p class="print-only key-title">Unit 2 Practice Test: Creating a Country (1850s–1867)</p>
+      <ol id="keyList" class="key-list"></ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">Aurora Academic Charter School · Social Studies 7 · Unit 2: Creating a Country</div>
+</footer>
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
