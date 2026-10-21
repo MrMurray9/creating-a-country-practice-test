@@ -97,21 +97,11 @@
     show("results"); $("resultsHeading").focus();
   }
 
-  function buildBooklet(){
-    var bl = $("bookletList");
-    Q.forEach(function(item){
-      var b = el("li"); b.appendChild(document.createTextNode(item.q));
-      var ol = el("ol"); item.o.forEach(function(o){ ol.appendChild(el("li",null,o)); });
-      b.appendChild(ol); bl.appendChild(b);
-    });
-  }
-
   $("startBtn").addEventListener("click", function(){ show("quiz"); go(0); });
   $("prevBtn").addEventListener("click", function(){ if(idx>0) go(idx-1); });
   $("nextBtn").addEventListener("click", function(){ if(idx<N-1) go(idx+1); else results(); });
   $("hintBtn").addEventListener("click", function(){ hints[idx]=true; render(); });
   $("retakeBtn").addEventListener("click", function(){ reset(); show("quiz"); go(0); });
-  $("printBtn").addEventListener("click", function(){ window.print(); });
   document.addEventListener("keydown", function(e){
     if($("quiz").hidden || e.target.tagName==="INPUT") return;
     var k = e.key.toUpperCase(), i = L.indexOf(k);
@@ -120,5 +110,5 @@
     else if(e.key==="ArrowLeft") $("prevBtn").click();
   });
 
-  reset(); buildBooklet();
+  reset();
 })();

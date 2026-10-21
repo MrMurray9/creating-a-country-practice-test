@@ -76,9 +76,6 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
 .r-no{color:var(--red);font-weight:700}
 .r-skip{color:var(--muted);font-weight:700}
 .review-list button{font:inherit;background:none;border:none;color:var(--navy);text-decoration:underline;cursor:pointer;padding:0}
-.tools{margin:1.5rem 0 2rem;display:flex;flex-wrap:wrap;gap:.6rem}
-.print-only{display:none}
-.print-booklet{display:none}
 .site-footer{background:var(--navy);color:var(--sky-light);font-size:.85rem;padding:1rem 0;text-align:center}
 @media (max-width:560px){
   .card{padding:1.1rem}
@@ -91,14 +88,8 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
   body{background:#fff;font-size:11pt}
   .site-header{background:#fff;color:#000;border-bottom:2px solid var(--navy);-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .site-header .logo{content:url(images/aurora-logo.png)}
-  .school-name{color:var(--navy)} .school-sub{color:#333}
-  .intro .topics,#start,#quiz,#results,.tools,.site-footer,.skip{display:none!important}
-  .print-booklet{display:block}
-    .print-booklet ol{padding-left:1.5rem}
-  .print-booklet li{margin:0 0 .8rem;break-inside:avoid}
-  .print-booklet ol ol{list-style:upper-alpha;margin-top:.2rem}
-  .print-booklet ol ol li{margin:0}
-    .print-only{display:block}
+  .skip,.btn,.nav-row,.review-list button{display:none!important}
+  .card{box-shadow:none;border:1px solid #ccc}
 }
 
 /* v3 simple main page */
@@ -107,5 +98,4 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
 .start-card{text-align:center;padding:2rem 1.5rem}
 .start-meta{margin:0 0 1.25rem;color:var(--muted);font-weight:600;font-size:1.05rem}
 .start-card .btn-lg{min-width:12rem}
-.tools{justify-content:center}
 @media print{.intro{text-align:left;padding:.5rem 0}.header-inner{justify-content:flex-start}}
