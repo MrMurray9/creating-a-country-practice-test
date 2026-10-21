@@ -1,7 +1,7 @@
-/* Unit 2: Practice Test, Version 3. */
+/* Unit 2: Practice Test, Version 4. */
 window.QUIZ = {
   title: "Unit 2: Practice Test",
-  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypSWsVNcr0lg==",
+  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypTmgKNNT0lg==",
   questions: [
  {
   "q": "In the 1850s, the population of Canada West grew larger than that of Canada East. Why did this lead to political deadlock in the Assembly?",
@@ -367,50 +367,6 @@ window.QUIZ = {
   "x": "0YTMTCo4yYTMgwCM2EDIuAHcgwyNg4CaDByav9mY0hXZU5Jki7SZ09mdgQGb192YgUGbw9WZwBiZvBCduV2YgIXZwBSMxASes52bgQmbhBCL0V3bgQWZ5FGdzBCZuFGbk5WdvZ2dl5EIk5WYgkURQBiIuUmcpBXbFBCazlGdpJnQgUGa0BiZvBCdyFGcgQWZulWYtVmcgEGZh5WYDBiLzJXahZmZhBibnlWZy9mZgQmbhBSZj5WZmVGZgQWZsx2byRnbvNGIsxWa0NHIulWY0lmcCJCI0VnQg4yc05WZt5mclZ3bnBCbhl2YulmdvJHcgQmbhBCbhJHduV2YggGdpdHI5JHduV3bjBCbhJXZkVmZgEGIhRWYuF2QgY2bg42bp5Wat9GRgUGa0BSZkFWbgQ3YBBSQOJEIlhGV"
  },
  {
-  "q": "In 1858, what brought thousands of people to the Fraser River in British Columbia?",
-  "o": [
-   "The fur trade",
-   "Free farmland",
-   "A gold rush",
-   "Logging jobs"
-  ],
-  "h": "Think about what prospectors were searching for along the river banks.",
-  "x": "==QOxIDIuAHIsATMg4CaDByav9mY0hXZU5JkiLiLyVmdpJFIyV2chJnRgUGa0BiZvBycr5WYiBSZoRHIn52bsFGIn5WasJWbhJ3YzBSZyV2dgMncvR3YlB3cvJHcgADMwASNyACd19mYhBCL4UDOxAibJBSIu9GIzF2dgg2c1JHIkx2bnBSZoRnIgQmbhBCLz5WahRnb19WbgUGa0BibpBCZs92ZgMXY3BSZyVGa0BCdhhGdgQWYlJHczBCZy92V"
- },
- {
-  "q": "Why did Governor James Douglas create a police force during the gold rush?",
-  "o": [
-   "To stop miners from leaving for California",
-   "To keep law and order among the miners",
-   "To protect the fur trade from the miners",
-   "To guard the new colony from Russian ships"
-  ],
-  "h": "Douglas remembered what had happened during the California gold rush a few years earlier.",
-  "x": "==QOxIDIuAHIsATMg4CaDByav9mY0hXZU5JkiLiL3FGbgUGa0BSZjJ3bm5WZg8GdgkycldGZ1pGKgMXZ0Fmc0NXanFWbgQWZ05WavBHchBCZuFGIlNmcvZGIlNWas9GcgEGIkVGdhVmcjBSZoBCLyVGZy9GIk5WYgcXYsBibpFGdulWYtByb0JCIvNHIsg2c1JHIkx2bnBSYp5mcvZWasF2QgUGa0BibpByczVmbzNXZsdXYsBiblVmYgQWYoBSZyVGaUBiLulGIkVGZv9GbmBycyVmbp1GIm9GIzRmbhNXdvhGdgMXYgQWZtJXYsFGI3VmcnBychx2Z19GR"
- },
- {
-  "q": "In 1866, Britain joined its two Pacific colonies into one. What was the new colony called?",
-  "o": [
-   "British Columbia",
-   "Vancouver Island",
-   "New Westminster",
-   "Cariboo"
-  ],
-  "h": "The name of the united colony is still used for a Canadian province today.",
-  "x": "zIjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuIuEWai1Wds92Qgg2cpRXayJEI6knbvx2bjBSZu9GI0NXdqBychdHIlJXZoRHI39mTg4SYpJWb1x2bDBCazlGdpJnQgQmbhBCZuFGbzlEIyVmd192YuFmVgUGdp5Wdg8GdgQWZkl2YlRGI0lGIsYjN4EDIulkIg4ycllmbvx2bjByb3RHIuVncg8Gdgg2Y11GIv9GdgQ3cvNGI0lGI0h2Z19Ga0BibpFGdpJnQ"
- },
- {
-  "q": "According to the textbook, what is true about most First Nations in British Columbia today?",
-  "o": [
-   "They signed the Douglas Treaties.",
-   "They have not signed treaties.",
-   "They signed treaties when BC joined Canada.",
-   "They were paid for all land taken from them."
-  ],
-  "h": "Governor Douglas made only a few land deals, all on Vancouver Island.",
-  "x": "yIjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuIu0WZoRHIt9mcmBibltWY0BCZuFGbgI3bmBibvlGdhNnblBXbvNGI55WYgQWZ2lWZjVmcgQ3buBSZ2FGagkXZoRFIuMXZpRXYlJHdgQWZudWazBCdv5GIlZXYoBycu9Wa0FmTgQ3cylmRgMkQgQ3cv1GIskXYkBycphGdg8GViAiLk5WYsNXSgIXZ2V3bj5WYWBibvBCZuFGbgY2bgMHblNmchBHI0EDI5xmbvBCZlJXZ292YgMXZpRXYlJHVgMXYsdWdvREIlhGV"
- },
- {
   "q": "What did Canada offer to build so that British Columbia would join Confederation?",
   "o": [
    "A road across the prairies within 10 years",
@@ -433,15 +389,59 @@ window.QUIZ = {
   "x": "1MjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLuF2dlh2Y0F2azF2UgY2bgwWY0lGchNGIlhGdgUWbhNWZiBSYul2ZlJFIi4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
  },
  {
-  "q": "Why did Laurier want the North-West Territories to become two provinces instead of one?",
+  "q": "The Manitoba Act of 1870 created Canada's fifth province. Which was one of its terms?",
   "o": [
-   "Haultain had asked for two separate provinces.",
-   "He feared one big province would be too powerful.",
-   "Saskatchewan and Alberta already had separate governments.",
-   "Britain ordered Canada to create two provinces."
+   "Only English would be used in the new province's schools and courts.",
+   "French and English would both be used in its government.",
+   "Louis Riel would serve as Manitoba's first premier.",
+   "It would send ten members to the Senate in Ottawa."
   ],
-  "h": "Think about size. What might happen if one province covered all of that land?",
-  "x": "zMjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLzV2YulmdvJHcg82d0BCZlRXYlJ3YgQ3YBBibhdXZoNGdht2chNFIlhGdgQmbhBCdjFEIhRnclJGbBBSZoRHIsUDM5EDIulEIi4Cb1Zmcld3bwBybvRHIlJGIkxWdvdHIlNmbpZ3byBHIldmchxGIlx2Zul2cgEGI0FGa0BCZpFmcmFGIzF2dgUGSg4SZnFmbh1GIvRHIldmchxGIv9GdgUmYgQGb192dgU2YulmdvJHcgUGbn5WazBSYgQXYoRHIkVWdnJXYgUGSg4SZu9GIuFGa0BiclRHdlJGIlJXZ3ByclNmbpZ3byBHIvdHdgQXYoRHIkVGdzl2culGIyVWayVXYMJCI0VnYgwSZj5Wa29mcwBSZu9GIkVGduF2dg4WahRHb1FGS"
+  "h": "The Act tried to meet the needs of both French-speaking and English-speaking residents.",
+  "x": "2gTMTCo41gTMg4CcwBCL4AiLoNEIr92biRHelRlnQKuLzJXYllHIlZXamBicvZGIkVGazlmbhJGIzF2dgQmbhBSYkFmbhNEIlZXYlxGIvRHIkFGagwWZpJFIuUGdh5WZTBSZoRHIulGIzJXZi1WZtByb3RHIhJ2b0lmbh1EIlZXYnBCZuFGIz1WZ0NXezBCbv9GajNHIjlGbvhGdhNEIk5WYgQnbhR3clR3byBFIwVHI0V2cg82csFGI0lEIi4yc0JXdvNGIk5WYgQnbl1mbyVmdvdGIlhGdg4WagQWZzVHIlJGIkxWdvdHIoNXasdmbFBCZuFGIoNmblJnRggGdvJmIgQXYoRHIklWYzBCdjFEIhJ2b0lmbh1EIlhGV"
+ },
+ {
+  "q": "When Saskatchewan became a province in 1905, why did Regina seem the obvious choice for its capital?",
+  "o": [
+   "It was already the capital of the North-West Territories.",
+   "Its voters had supported Laurier's Liberals in the 1904 election.",
+   "It was the only prairie city on a railway line.",
+   "Queen Victoria had chosen it as the capital."
+  ],
+  "h": "Think about what Regina already was before Saskatchewan existed.",
+  "x": "=UzMyACLyMjMg4CcwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBibhdXZoNGdht2chN1LhRnclJGbBBic19WegUWZThCIukHdpNGIsFGdpBXYjBSZoRHIh5WanVmUgUGZh1GIkFGagQ3YBBycllmcvRXayJXZUBCdzV2VtgGdy9mTgUGaUBiIuMXZpJ3b0lmcyVGVgQ3cldVLoRncv5EIlhGdgY2bgwWY0lGchNGIlhGdg4WZlJGI5RWYlJHbhBCZhhGI0lEIuU2Yp9GajByc19Wa2J2bgUGa0BCZl1WZlNHIh5WanVmUgwibhdXZoNGdht2chNFIulkI"
+ },
+ {
+  "q": "What was Prince Edward Island's \"Land Question\"?",
+  "o": [
+   "Most of the island's soil was too poor for farming.",
+   "Most Islanders rented land from absentee owners in Britain.",
+   "Most Islanders rented their farms from the Hudson's Bay Company.",
+   "Canada had bought most of the island's land in 1867."
+  ],
+  "h": "Most Islanders did not own the homes and farms they lived on.",
+  "x": "=cjMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4p4SZklGbzBibvlGdhJXZkVmZu92QtUmcwBSSFBFIyV3b5BibvBybzxWQoAiLkVmbp9magkURQBiZpBCZuFGbgUGa0BSe1JGIvRHIkV2cp12byBHIhRWYuF2QgIiLzJXZud3bk5WYsBSZoRHIvRHI05WZyBCZpFGcgMnclRmbhx2cJBCdz9WbgwyctJXYmBCZuFGIzVWbvhGIud3bgIXalhGdgcmbp52dvBiZvBCZhVGdz5WagwCdhhGdgQnbhVWbgMXaoRFIuQmbhx2cpBSZoRHIm9GI0N3btBCZl52dvBycyVmb39GZuFGbgg2cpRXayJEIlVGduV2ciFkI"
+ },
+ {
+  "q": "After Alberta and Saskatchewan became provinces in 1905, who controlled their public lands and natural resources?",
+  "o": [
+   "The two new provinces",
+   "The Hudson's Bay Company",
+   "The federal government",
+   "The British government"
+  ],
+  "h": "Haultain and Laurier disagreed about this, and Laurier got his way.",
+  "x": "=MzMyAiLwBCLwEDIug2Qgs2bvJGd4VGVeCp4ukCMzkTMgMXehNHIlRWasNHIyV3b5hCIzJXYllHI1IDIyVGa09mbhBicvZGIzRmbhxGIylWZoRHIvRHIlxGdpRHI0V2ZgQ3buBCZpRGIzV2YulmdvJHcgUGaUBiIuMXZjJXdvNXZyBCZuFGIzRmbhxGIjlGbiVHcgY2bgw2byRnbvNGIwVWZrBCZpRGI05WZt5mclZ3bnBCbhJXZkVmZgUGaUJCIuMHduFmcnlWbtlGI3Vmbg8GdgQmbhxGIwFWZoNGIlZXanByb0BCbvJHdu92YgQWZkVWZuBicllmc1FGTgQXdiBCLzV2YyV3bzVmcgQmbhBCZuFGbgUGa0BCbvJHdu92Yg8GdgMXZj5Wa29mcwBSZoRHIkVGduF2dg4WahRHb1FGS"
+ },
+ {
+  "q": "In 1934, why did Britain replace Newfoundland's elected government with a commission?",
+  "o": [
+   "Newfoundlanders voted to end self-government.",
+   "The colony was about to go bankrupt.",
+   "The Second World War had just begun.",
+   "Canada asked Britain to run the colony."
+  ],
+  "h": "Think about what the Great Depression did to Newfoundland's exports and its government's money.",
+  "x": "=gzMyMJgifzMyAiLwBHIsATMg4CaDByav9mY0hXZU5Jki7SOzkTMgwWa05Wdg4WanVmYgQ3buBCZpRGIyF2VgQGby92VgQmbvNWZTBSZoRFIi4ibvl2czlWbt92YgEGIoRXa3BCdpBCZlNWYsBXZyBCdpBCL0MTOxAibpJCIvNFIi4CdwVncr5WYiBybnByb0BCd19mYhBychdHI552bs92YgUGaUBiLkV2dvJncvJGIkFGagQXagkXZu9Wbg42bgQ3clJXZ05WagUGa0BSehBHIvRHIkJ3bmZWYgQ3buBCZsV3bjJCI05WZt5mclZ3bnBSZoRFIuMnYvpGIylWZoRHI0N3bsByck5WYzV3boRHIk5WYgQWZzBXYsx2bjBycsFmcl5WatBCZuFGIsQ2bvdHIsg2cpZGIy9mZgMXZjlmcwBCLu9WazNXZyBXZEBCdhVmcHBSZoRHIn5WayVHR"
  }
 ]
 };
