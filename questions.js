@@ -1,7 +1,7 @@
 /* Unit 2: Practice Test, Version 3. */
 window.QUIZ = {
   title: "Unit 2: Practice Test",
-  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oyp",
+  k: "T24JNdT1lrZXdhA93f+evlh+GDrax+WHoUZgAyLM7oypSWsVNcr0lg==",
   questions: [
  {
   "q": "In the 1850s, the population of Canada West grew larger than that of Canada East. Why did this lead to political deadlock in the Assembly?",
@@ -365,6 +365,83 @@ window.QUIZ = {
   ],
   "h": "Check each statement against what you know about defence, PEI and Newfoundland, and voting in 1867.",
   "x": "0YTMTCo4yYTMgwCM2EDIuAHcgwyNg4CaDByav9mY0hXZU5Jki7SZ09mdgQGb192YgUGbw9WZwBiZvBCduV2YgIXZwBSMxASes52bgQmbhBCL0V3bgQWZ5FGdzBCZuFGbk5WdvZ2dl5EIk5WYgkURQBiIuUmcpBXbFBCazlGdpJnQgUGa0BiZvBCdyFGcgQWZulWYtVmcgEGZh5WYDBiLzJXahZmZhBibnlWZy9mZgQmbhBSZj5WZmVGZgQWZsx2byRnbvNGIsxWa0NHIulWY0lmcCJCI0VnQg4yc05WZt5mclZ3bnBCbhl2YulmdvJHcgQmbhBCbhJHduV2YggGdpdHI5JHduV3bjBCbhJXZkVmZgEGIhRWYuF2QgY2bg42bp5Wat9GRgUGa0BSZkFWbgQ3YBBSQOJEIlhGV"
+ },
+ {
+  "q": "In 1858, what brought thousands of people to the Fraser River in British Columbia?",
+  "o": [
+   "The fur trade",
+   "Free farmland",
+   "A gold rush",
+   "Logging jobs"
+  ],
+  "h": "Think about what prospectors were searching for along the river banks.",
+  "x": "==QOxIDIuAHIsATMg4CaDByav9mY0hXZU5JkiLiLyVmdpJFIyV2chJnRgUGa0BiZvBycr5WYiBSZoRHIn52bsFGIn5WasJWbhJ3YzBSZyV2dgMncvR3YlB3cvJHcgADMwASNyACd19mYhBCL4UDOxAibJBSIu9GIzF2dgg2c1JHIkx2bnBSZoRnIgQmbhBCLz5WahRnb19WbgUGa0BibpBCZs92ZgMXY3BSZyVGa0BCdhhGdgQWYlJHczBCZy92V"
+ },
+ {
+  "q": "Why did Governor James Douglas create a police force during the gold rush?",
+  "o": [
+   "To stop miners from leaving for California",
+   "To keep law and order among the miners",
+   "To protect the fur trade from the miners",
+   "To guard the new colony from Russian ships"
+  ],
+  "h": "Douglas remembered what had happened during the California gold rush a few years earlier.",
+  "x": "==QOxIDIuAHIsATMg4CaDByav9mY0hXZU5JkiLiL3FGbgUGa0BSZjJ3bm5WZg8GdgkycldGZ1pGKgMXZ0Fmc0NXanFWbgQWZ05WavBHchBCZuFGIlNmcvZGIlNWas9GcgEGIkVGdhVmcjBSZoBCLyVGZy9GIk5WYgcXYsBibpFGdulWYtByb0JCIvNHIsg2c1JHIkx2bnBSYp5mcvZWasF2QgUGa0BibpByczVmbzNXZsdXYsBiblVmYgQWYoBSZyVGaUBiLulGIkVGZv9GbmBycyVmbp1GIm9GIzRmbhNXdvhGdgMXYgQWZtJXYsFGI3VmcnBychx2Z19GR"
+ },
+ {
+  "q": "In 1866, Britain joined its two Pacific colonies into one. What was the new colony called?",
+  "o": [
+   "British Columbia",
+   "Vancouver Island",
+   "New Westminster",
+   "Cariboo"
+  ],
+  "h": "The name of the united colony is still used for a Canadian province today.",
+  "x": "zIjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuIuEWai1Wds92Qgg2cpRXayJEI6knbvx2bjBSZu9GI0NXdqBychdHIlJXZoRHI39mTg4SYpJWb1x2bDBCazlGdpJnQgQmbhBCZuFGbzlEIyVmd192YuFmVgUGdp5Wdg8GdgQWZkl2YlRGI0lGIsYjN4EDIulkIg4ycllmbvx2bjByb3RHIuVncg8Gdgg2Y11GIv9GdgQ3cvNGI0lGI0h2Z19Ga0BibpFGdpJnQ"
+ },
+ {
+  "q": "According to the textbook, what is true about most First Nations in British Columbia today?",
+  "o": [
+   "They signed the Douglas Treaties.",
+   "They have not signed treaties.",
+   "They signed treaties when BC joined Canada.",
+   "They were paid for all land taken from them."
+  ],
+  "h": "Governor Douglas made only a few land deals, all on Vancouver Island.",
+  "x": "yIjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuIu0WZoRHIt9mcmBibltWY0BCZuFGbgI3bmBibvlGdhNnblBXbvNGI55WYgQWZ2lWZjVmcgQ3buBSZ2FGagkXZoRFIuMXZpRXYlJHdgQWZudWazBCdv5GIlZXYoBycu9Wa0FmTgQ3cylmRgMkQgQ3cv1GIskXYkBycphGdg8GViAiLk5WYsNXSgIXZ2V3bj5WYWBibvBCZuFGbgY2bgMHblNmchBHI0EDI5xmbvBCZlJXZ292YgMXZpRXYlJHVgMXYsdWdvREIlhGV"
+ },
+ {
+  "q": "What did Canada offer to build so that British Columbia would join Confederation?",
+  "o": [
+   "A road across the prairies within 10 years",
+   "A bridge from Vancouver Island to the mainland",
+   "A canal linking BC with the prairies",
+   "A railway across Canada within 10 years"
+  ],
+  "h": "BC asked for one thing, but Canada offered something even better.",
+  "x": "==QNyIDIuAHIsATMg4CaDByav9mY0hXZU5Jki7SM3gTMgkHb1pEIwIDIu9GIlNmbpZ3byBHIoRHepNHIzdSYkFmbhNEIl1WYjVmYgMkQgIiLzJXYllHIwEDIulGa0l2dgQXag8GZgQGb192dgkXZoRHIk5WYUCo45F2dslWYyBCbhRnbl5Wa052bjNnbhJHdgEGIkxWa1JGIvRHIkVmclZmZvBSelhGVg4CZh9mcgEGIuFGa0BiclRHdlJGIn5WaoRXZt92cgQGbpVnYg8GdgQWZyVmZm9GIhRWYuF2QiACLkFWZ0NnbJBiLzVWaylWYyBHIlhGdgM3cvJ3YhBCZh9mcgEGIy9mZgQWZrNXYgMXZ0F2ZlxWZkBycnMkQ"
+ },
+ {
+  "q": "When Alberta became a province in 1905, which city did Prime Minister Laurier choose as its capital?",
+  "o": [
+   "Calgary",
+   "Regina",
+   "Edmonton",
+   "St. Albert"
+  ],
+  "h": "Laurier rewarded the city whose voters had supported his Liberal Party in the 1904 election.",
+  "x": "1MjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLuF2dlh2Y0F2azF2UgY2bgwWY0lGchNGIlhGdgUWbhNWZiBSYul2ZlJFIi4ibvRnbv1GZFBSZz9GajBicllmc1FGTg4SZkl2YlRGIvRHIyV2dvBHIlhGdgQWYoBiclR3cp5WatBSZtlmcwBSZoRlIg4CZyFGagMXY3BSZjl2boNGIlhGdgQmbhBCLzVWa0l2YgQ3cldmchxGIvdHdgUGa0BSZyV2dg42b052btRWRgQmbhBSeyF2ZsF2Q"
+ },
+ {
+  "q": "Why did Laurier want the North-West Territories to become two provinces instead of one?",
+  "o": [
+   "Haultain had asked for two separate provinces.",
+   "He feared one big province would be too powerful.",
+   "Saskatchewan and Alberta already had separate governments.",
+   "Britain ordered Canada to create two provinces."
+  ],
+  "h": "Think about size. What might happen if one province covered all of that land?",
+  "x": "zMjMg4CcgwCMxAiLoNEIr92biRHelRlnQKuLzV2YulmdvJHcg82d0BCZlRXYlJ3YgQ3YBBibhdXZoNGdht2chNFIlhGdgQmbhBCdjFEIhRnclJGbBBSZoRHIsUDM5EDIulEIi4Cb1Zmcld3bwBybvRHIlJGIkxWdvdHIlNmbpZ3byBHIldmchxGIlx2Zul2cgEGI0FGa0BCZpFmcmFGIzF2dgUGSg4SZnFmbh1GIvRHIldmchxGIv9GdgUmYgQGb192dgU2YulmdvJHcgUGbn5WazBSYgQXYoRHIkVWdnJXYgUGSg4SZu9GIuFGa0BiclRHdlJGIlJXZ3ByclNmbpZ3byBHIvdHdgQXYoRHIkVGdzl2culGIyVWayVXYMJCI0VnYgwSZj5Wa29mcwBSZu9GIkVGduF2dg4WahRHb1FGS"
  }
 ]
 };
