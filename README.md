@@ -1,4 +1,4 @@
-# Unit 2 Practice Test: Creating a Country (1850s–1867)
+# Unit 2: Practice Test
 
 Interactive Social Studies 7 practice quiz for Aurora Academic Charter School (40 questions, Chapter 7: Creating a New Country).
 

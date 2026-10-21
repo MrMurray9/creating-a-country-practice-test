@@ -1,6 +1,6 @@
-/* Unit 2 Practice Test: Creating a Country (1850s–1867), Version 2. */
+/* Unit 2: Practice Test, Version 2. */
 window.QUIZ = {
-  title: "Unit 2 Practice Test: Creating a Country (1850s–1867)",
+  title: "Unit 2: Practice Test",
   k: "T24JNdT1lrdRdhEz3PyeuVl7GTsk+ueHoEZgAiPN7I6uSGsVK9X3lg==",
   questions: [
  {

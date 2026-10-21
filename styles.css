@@ -19,7 +19,7 @@ body{margin:0;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var
 .skip:focus{left:1rem}
 .site-header{background:var(--navy);color:var(--white);border-bottom:5px solid var(--sky)}
 .header-inner{display:flex;align-items:center;gap:1rem;padding-top:.8rem;padding-bottom:.8rem}
-.logo{height:49px;width:auto}
+.logo{height:60px;width:auto}
 .school{display:flex;flex-direction:column}
 .school-name{font-weight:700;font-size:1.2rem;letter-spacing:.01em}
 .school-sub{color:var(--sky);font-size:.9rem}
@@ -100,3 +100,12 @@ h1{color:var(--navy);font-size:clamp(1.4rem,4vw,2rem);margin:0 0 .3rem;line-heig
   .print-booklet ol ol li{margin:0}
     .print-only{display:block}
 }
+
+/* v3 simple main page */
+.header-inner{justify-content:center}
+.intro{text-align:center;padding:2rem 0 .25rem}
+.start-card{text-align:center;padding:2rem 1.5rem}
+.start-meta{margin:0 0 1.25rem;color:var(--muted);font-weight:600;font-size:1.05rem}
+.start-card .btn-lg{min-width:12rem}
+.tools{justify-content:center}
+@media print{.intro{text-align:left;padding:.5rem 0}.header-inner{justify-content:flex-start}}
